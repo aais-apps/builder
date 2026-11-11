@@ -523,11 +523,45 @@ def hub_get(method: str, **params):
 def get_template_groups() -> list[dict]:
 	"""Template groups for the picker, fetched live from the hub. Empty (just
 	Blank page) if the hub is unreachable."""
+	local_group = None
+	local_pages = frappe.get_all(
+		"Builder Page",
+		filters={"is_template": 1},
+		fields=["name", "page_title", "preview", "route", "template_group"],
+		order_by="creation desc",
+	)
+	if local_pages:
+		local_group = {
+			"name": "institutional",
+			"title": "Institutional Templates (School Portal)",
+			"description": "বিদ্যালয়ের অফিসিয়াল হেডার, ফুটার এবং প্রাতিষ্ঠানিক ব্র্যান্ডিং সংবলিত টেমপ্লেট।",
+			"categories": ["Institutional", "Education"],
+			"preview": local_pages[0].preview or "/assets/builder/images/fallback.png",
+			"thumbnail": local_pages[0].preview or "/assets/builder/images/fallback.png",
+			"order": -1,
+			"pages": [
+				{
+					"name": p.name,
+					"page_title": p.page_title or p.name,
+					"preview": p.preview or "/assets/builder/images/fallback.png",
+					"route": p.route,
+					"template_group": "institutional",
+					"thumbnail": p.preview or "/assets/builder/images/fallback.png",
+					"live_url": f"/{p.route}" if p.route else "",
+				}
+				for p in local_pages
+			],
+		}
+
 	try:
-		return hub_get("get_catalog") or []  # type: ignore[return-value]
+		hub_catalog = hub_get("get_catalog") or []
 	except Exception:
 		frappe.log_error("Failed to fetch templates from hub")
-		return []
+		hub_catalog = []
+
+	if local_group:
+		return [local_group] + hub_catalog
+	return hub_catalog
 
 
 def create_page_from_bundle(
@@ -596,7 +630,26 @@ def create_page_from_bundle(
 @frappe.whitelist()
 @has_page_write("You do not have permission to create a page.")
 def create_page_from_template(template_page: str, project_folder: str | None = None) -> str:
-	"""Create an editable page from a hub template and return its name."""
+	"""Create an editable page from a hub template or local template and return its name."""
+	if frappe.db.exists("Builder Page", template_page):
+		tpl = frappe.get_doc("Builder Page", template_page)
+		new_page = frappe.copy_doc(tpl)
+		title = (tpl.page_title or "New Page").replace(" (টেমপ্লেট)", "").replace(" (Template)", "")
+		new_page.page_title = title
+		new_page.is_template = 0
+		new_page.published = 0
+		new_page.published_at = None
+		base_slug = frappe.scrub(title).replace("_", "-") or "new-page"
+		slug = base_slug
+		idx = 1
+		while frappe.db.exists("Builder Page", {"route": slug}):
+			slug = f"{base_slug}-{idx}"
+			idx += 1
+		new_page.route = slug
+		new_page.project_folder = project_folder or None
+		new_page.insert(ignore_permissions=True)
+		return new_page.name
+
 	try:
 		bundle = hub_get("get_template_bundle", page=template_page)
 	except Exception:
@@ -616,6 +669,12 @@ def import_template_group(template_group: str) -> dict:
 
 	Pages keep their template paths under one shared route prefix, so the group's relative
 	nav links (href="rooms") resolve between the imported pages."""
+	if template_group == "institutional":
+		pages = frappe.get_all("Builder Page", filters={"is_template": 1}, pluck="name")
+		folder, prefix = create_import_folder("School Portal", "school-portal")
+		created = [create_page_from_template(p, folder) for p in pages]
+		return {"folder": folder, "pages": created}
+
 	groups = get_template_groups()
 	group = next((g for g in groups if g.get("name") == template_group), None)
 	if not group:
