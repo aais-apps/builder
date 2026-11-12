@@ -525,7 +525,7 @@ def get_template_groups() -> list[dict]:
 	organized into structured groups."""
 	local_pages = frappe.get_all(
 		"Builder Page",
-		filters={"is_template": 1},
+		filters={"template_group": "bd_school"},
 		fields=["name", "page_title", "preview", "route", "template_group"],
 		order_by="creation asc",
 	)
