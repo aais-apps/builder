@@ -521,47 +521,100 @@ def hub_get(method: str, **params):
 @frappe.whitelist()
 @has_page_read("You do not have permission to view templates.")
 def get_template_groups() -> list[dict]:
-	"""Template groups for the picker, fetched live from the hub. Empty (just
-	Blank page) if the hub is unreachable."""
-	local_group = None
+	"""Template groups for the picker. Returns only local institutional templates
+	organized into structured groups."""
 	local_pages = frappe.get_all(
 		"Builder Page",
 		filters={"is_template": 1},
 		fields=["name", "page_title", "preview", "route", "template_group"],
-		order_by="creation desc",
+		order_by="creation asc",
 	)
-	if local_pages:
-		local_group = {
-			"name": "institutional",
-			"title": "Institutional Templates (School Portal)",
-			"description": "বিদ্যালয়ের অফিসিয়াল হেডার, ফুটার এবং প্রাতিষ্ঠানিক ব্র্যান্ডিং সংবলিত টেমপ্লেট।",
-			"categories": ["Institutional", "Education"],
-			"preview": local_pages[0].preview or "/assets/builder/images/fallback.png",
-			"thumbnail": local_pages[0].preview or "/assets/builder/images/fallback.png",
-			"order": -1,
-			"pages": [
-				{
-					"name": p.name,
-					"page_title": p.page_title or p.name,
-					"preview": p.preview or "/assets/builder/images/fallback.png",
-					"route": p.route,
-					"template_group": "institutional",
-					"thumbnail": p.preview or "/assets/builder/images/fallback.png",
-					"live_url": f"/{p.route}" if p.route else "",
-				}
-				for p in local_pages
-			],
+	if not local_pages:
+		return []
+
+	page_map = {p.route: p for p in local_pages}
+
+	def make_page_item(p, group_name):
+		return {
+			"name": p.name,
+			"page_title": p.page_title or p.name,
+			"preview": p.preview or "/assets/builder/images/fallback.png",
+			"route": p.route,
+			"template_group": group_name,
+			"thumbnail": p.preview or "/assets/builder/images/fallback.png",
+			"live_url": f"/{p.route}" if p.route else "",
 		}
 
-	try:
-		hub_catalog = hub_get("get_catalog") or []
-	except Exception:
-		frappe.log_error("Failed to fetch templates from hub")
-		hub_catalog = []
+	groups_def = [
+		{
+			"name": "bd_school_all",
+			"title": "সকল পৃষ্ঠা — Bangladesh School Portal v2.2",
+			"description": "আদর্শ সরকারি উচ্চ বিদ্যালয়ের পূর্ণাঙ্গ ৩১টি পৃষ্ঠার প্রাতিষ্ঠানিক পোর্টাল টেমপ্লেট সংগ্রহ।",
+			"categories": ["All Pages", "Complete Portal"],
+			"routes": [p.route for p in local_pages],
+		},
+		{
+			"name": "bd_school_core",
+			"title": "মূল পৃষ্ঠা ও ক্যাম্পাস (Core & Campus)",
+			"description": "হোমপেজ, প্রতিষ্ঠান পরিচিতি, ক্যাম্পাস ও সুযোগ-সুবিধা এবং ফটো গ্যালারি।",
+			"categories": ["Core", "Institutional"],
+			"routes": ["school-home-v22", "about-school", "facilities", "gallery"],
+		},
+		{
+			"name": "bd_school_academics",
+			"title": "একাডেমিক কার্যক্রম (Academics & Routine)",
+			"description": "একাডেমিক বিবরণ, বাৎসরিক শিক্ষাপঞ্জি, ক্লাস রুটিন, সিলেবাস ও পাঠ্যবই তালিকা।",
+			"categories": ["Academic", "Curriculum"],
+			"routes": ["academic", "academic-calendar", "syllabus", "class-routine", "book-list"],
+		},
+		{
+			"name": "bd_school_admin",
+			"title": "প্রশাসন ও শিক্ষকবৃন্দ (Administration & Faculty)",
+			"description": "প্রশাসন কাঠামো, প্রধান শিক্ষকের বাণী, পরিচালনা কমিটি এবং শিক্ষক ও কর্মচারীদের বিবরণ।",
+			"categories": ["Administration", "Faculty"],
+			"routes": ["administration", "headteacher-message", "management-committee", "teachers-staff", "teacher-profile"],
+		},
+		{
+			"name": "bd_school_admission",
+			"title": "ভর্তি ও ফলাফল (Admission & Results)",
+			"description": "ভর্তি তথ্য, ভর্তি সংক্রান্ত নোটিশ, পরীক্ষা ও ফলাফল এবং মেধা বৃত্তি সহায়তা।",
+			"categories": ["Admission", "Examinations"],
+			"routes": ["admission", "admission-notices", "results", "scholarships"],
+		},
+		{
+			"name": "bd_school_notices",
+			"title": "নোটিশ ও সংবাদ (Notices & Events)",
+			"description": "প্রাতিষ্ঠানিক নোটিশ বোর্ড, বিস্তারিত নোটিশ ভিউ, সংবাদ ও অনুষ্ঠানমালা।",
+			"categories": ["Notices", "Media"],
+			"routes": ["notices", "notice-detail", "news-events", "news-detail"],
+		},
+		{
+			"name": "bd_school_services",
+			"title": "শিক্ষার্থী কর্নার ও সেবা (Student Corner & Services)",
+			"description": "শিক্ষার্থী কর্নার, আচরণবিধি, সহশিক্ষা ক্লাব, অভিভাবক কর্নার, সিটিজেন চার্টার ও যোগাযোগ।",
+			"categories": ["Student Services", "Governance"],
+			"routes": ["student-corner", "student-guidelines", "clubs-activities", "parent-corner", "citizen-charter", "governance", "downloads", "faq", "contact"],
+		},
+	]
 
-	if local_group:
-		return [local_group] + hub_catalog
-	return hub_catalog
+	result_groups = []
+	for idx, g in enumerate(groups_def):
+		g_pages = [make_page_item(page_map[r], g["name"]) for r in g["routes"] if r in page_map]
+		if not g_pages:
+			continue
+		preview_img = g_pages[0]["preview"] or "/assets/builder/images/fallback.png"
+		result_groups.append({
+			"name": g["name"],
+			"title": g["title"],
+			"description": g["description"],
+			"categories": g["categories"],
+			"preview": preview_img,
+			"thumbnail": preview_img,
+			"order": idx,
+			"pages": g_pages,
+		})
+
+	return result_groups
 
 
 def create_page_from_bundle(
@@ -665,16 +718,7 @@ def create_page_from_template(template_page: str, project_folder: str | None = N
 @frappe.whitelist()
 @has_page_write("You do not have permission to create pages.")
 def import_template_group(template_group: str) -> dict:
-	"""Import all pages of a template group into a new folder and return it with the page names.
-
-	Pages keep their template paths under one shared route prefix, so the group's relative
-	nav links (href="rooms") resolve between the imported pages."""
-	if template_group == "institutional":
-		pages = frappe.get_all("Builder Page", filters={"is_template": 1}, pluck="name")
-		folder, prefix = create_import_folder("School Portal", "school-portal")
-		created = [create_page_from_template(p, folder) for p in pages]
-		return {"folder": folder, "pages": created}
-
+	"""Import all pages of a template group into a new folder and return it with the page names."""
 	groups = get_template_groups()
 	group = next((g for g in groups if g.get("name") == template_group), None)
 	if not group:
@@ -684,14 +728,28 @@ def import_template_group(template_group: str) -> dict:
 	if not pages:
 		frappe.throw(frappe._("No pages found in this template group."))
 
-	# fetch before creating the folder, so its row lock isn't held across hub requests
-	bundles = fetch_group_bundles(pages)
-	if not bundles:
-		frappe.throw(frappe._("Could not import any pages from this template group."))
-
 	slug = frappe.scrub(template_group).replace("_", "-")
 	folder, prefix = create_import_folder(group.get("title") or template_group, slug)
-	return {"folder": folder, "pages": import_group_pages(bundles, template_group, folder, prefix)}
+
+	created = []
+	local_page_names = []
+	remote_pages = []
+	for p in pages:
+		pname = p.get("name") if isinstance(p, dict) else p
+		if frappe.db.exists("Builder Page", pname):
+			local_page_names.append(pname)
+		else:
+			remote_pages.append(p)
+
+	for lp in local_page_names:
+		created.append(create_page_from_template(lp, folder))
+
+	if remote_pages:
+		bundles = fetch_group_bundles(remote_pages)
+		if bundles:
+			created.extend(import_group_pages(bundles, template_group, folder, prefix))
+
+	return {"folder": folder, "pages": created}
 
 
 def import_group_pages(
