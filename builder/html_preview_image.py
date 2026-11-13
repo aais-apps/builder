@@ -27,13 +27,17 @@ def render_full_page(html: str, width: int = 1280, height: int = 900, max_height
 	"""Screenshot the whole document from a real-sized viewport, so vh units keep the
 	size they have in a browser instead of stretching to the capture height."""
 	try:
-		from frappe.utils.chromium import CDPSocketClient, ChromiumManager, Page
+		from frappe.utils.pdf_generator.cdp_connection import CDPSocketClient
+		from frappe.utils.pdf_generator.chrome_pdf_generator import ChromePDFGenerator
+		from frappe.utils.pdf_generator.page import Page
 		from frappe.utils.pdf import get_host_url
 		from frappe.utils.preview import safe_execute
 	except ImportError:
 		return render(html, width=width, height=max_height)
 
-	generator, browser_id = ChromiumManager.acquire()
+	generator = ChromePDFGenerator()
+	browser_id = frappe.utils.random_string(10)
+	generator.add_browser(browser_id)
 	session = page = None
 	try:
 		try:
