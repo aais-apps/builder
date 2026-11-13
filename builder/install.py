@@ -3,6 +3,7 @@ from frappe.core.api.file import create_new_folder
 
 from builder.ai.presets import sync_site_provider
 from builder.export_import_standard_page import sync_standard_builder_pages
+from builder.template_sync import sync_builder_templates
 from builder.utils import (
 	add_composite_index_to_web_page_view,
 	sync_block_templates,
@@ -20,6 +21,7 @@ def after_install():
 	add_composite_index_to_web_page_view()
 	sync_standard_builder_pages()
 	sync_site_provider()
+	sync_builder_templates()
 
 
 def after_migrate():
@@ -28,6 +30,7 @@ def after_migrate():
 	sync_builder_tokens()
 	sync_standard_builder_pages()
 	sync_site_provider()
+	sync_builder_templates()
 
 
 def after_app_install(app_name=None):

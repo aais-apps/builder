@@ -1,0 +1,14 @@
+{
+ "block": "\"{\\\"blockId\\\": \\\"service-root-v2\\\", \\\"blockName\\\": \\\"Service Tile v2\\\", \\\"element\\\": \\\"a\\\", \\\"attributes\\\": {\\\"href\\\": \\\"#quick\\\"}, \\\"classes\\\": [\\\"service-tile\\\"], \\\"baseStyles\\\": {\\\"display\\\": \\\"flex\\\", \\\"flexDirection\\\": \\\"column\\\", \\\"gap\\\": \\\"7px\\\", \\\"border\\\": \\\"1px solid #E1E7EC\\\", \\\"padding\\\": \\\"18px 15px\\\", \\\"backgroundColor\\\": \\\"#fff\\\", \\\"borderRadius\\\": \\\"9px\\\", \\\"textDecoration\\\": \\\"none\\\", \\\"color\\\": \\\"#1F3448\\\", \\\"flex\\\": \\\"1 1 0px\\\", \\\"minWidth\\\": \\\"0px\\\"}, \\\"children\\\": [{\\\"blockId\\\": \\\"service-icon-v2\\\", \\\"blockName\\\": \\\"Service icon\\\", \\\"element\\\": \\\"span\\\", \\\"innerHTML\\\": \\\"\\u25a6\\\", \\\"baseStyles\\\": {\\\"color\\\": \\\"#146344\\\", \\\"fontSize\\\": \\\"25px\\\", \\\"fontWeight\\\": \\\"700\\\"}, \\\"children\\\": []}, {\\\"blockId\\\": \\\"service-title-v2\\\", \\\"blockName\\\": \\\"Service title\\\", \\\"element\\\": \\\"h3\\\", \\\"innerHTML\\\": \\\"\\u09b6\\u09bf\\u0995\\u09cd\\u09b7\\u09be\\u09b0\\u09cd\\u09a5\\u09c0 \\u09b8\\u09c7\\u09ac\\u09be\\\", \\\"baseStyles\\\": {\\\"fontSize\\\": \\\"15px\\\", \\\"fontWeight\\\": \\\"800\\\", \\\"margin\\\": \\\"0px\\\", \\\"color\\\": \\\"#16334B\\\"}, \\\"children\\\": []}, {\\\"blockId\\\": \\\"service-note-v2\\\", \\\"blockName\\\": \\\"Service description\\\", \\\"element\\\": \\\"span\\\", \\\"innerHTML\\\": \\\"\\u09ac\\u09bf\\u09b8\\u09cd\\u09a4\\u09be\\u09b0\\u09bf\\u09a4 \\u099c\\u09be\\u09a8\\u09c1\\u09a8\\\", \\\"baseStyles\\\": {\\\"fontSize\\\": \\\"12px\\\", \\\"color\\\": \\\"#647486\\\", \\\"lineHeight\\\": \\\"1.5\\\"}, \\\"children\\\": []}]}\"",
+ "component_id": "bd-school-service-v22",
+ "component_name": "School Service Tile v2.2",
+ "creation": "2026-11-12 05:38:15.856322",
+ "docstatus": 0,
+ "doctype": "Builder Component",
+ "for_web_page": null,
+ "idx": 0,
+ "modified": "2026-11-12 05:38:15.856322",
+ "modified_by": "Administrator",
+ "name": "bd-school-service-v22",
+ "owner": "Administrator"
+}

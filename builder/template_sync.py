@@ -104,6 +104,12 @@ def import_template_pages(pages_path, group, publish=False):
 		with open(page_file, encoding="utf-8") as f:  # nosemgrep
 			fixture = frappe.parse_json(f.read())
 		page_name = fixture.get("name") or fname
+		# Published school pages may have been edited after a template was copied.
+		# A migration must never turn those live pages back into hidden templates.
+		if frappe.db.exists("Builder Page", page_name) and not frappe.db.get_value(
+			"Builder Page", page_name, "is_template"
+		):
+			continue
 		import_file_by_path(page_file)
 		if frappe.db.exists("Builder Page", page_name):
 			# import_file_by_path skips files whose db timestamp is newer, so

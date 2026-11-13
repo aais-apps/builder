@@ -1,0 +1,2872 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "backgroundColor": "#F7F9FB",
+    "color": "#1F3448",
+    "display": "flex",
+    "flexDirection": "column",
+    "fontFamily": "Noto Sans Bengali",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "pg-teachers-staff-0096",
+   "blockName": "School portal inner page",
+   "children": [
+    {
+     "baseStyles": {
+      "height": "0px"
+     },
+     "blockId": "pg-teachers-staff-0001",
+     "blockName": "Page top anchor",
+     "children": [],
+     "customAttributes": {
+      "id": "page-top"
+     },
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#102A42",
+      "width": "100%"
+     },
+     "blockId": "pg-teachers-staff-global-school2-0008",
+     "blockName": "Government utility bar",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1248px",
+        "paddingBottom": "8px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "paddingTop": "8px",
+        "width": "100%"
+       },
+       "blockId": "pg-teachers-staff-global-school2-0007",
+       "blockName": "Utility inner",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "20px"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0003",
+         "blockName": "Utility left",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "#D1E5DE",
+            "fontSize": "12px",
+            "fontWeight": "650",
+            "lineHeight": "1.55"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0001",
+           "blockName": "National label",
+           "children": [],
+           "element": "span",
+           "innerHTML": "বাংলাদেশের শিক্ষা প্রতিষ্ঠানসমূহের তথ্য ও সেবা"
+          },
+          {
+           "baseStyles": {
+            "color": "#FEDE9A",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "lineHeight": "1.55"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0002",
+           "blockName": "Demo flag",
+           "children": [],
+           "element": "span",
+           "innerHTML": "ডেমো • প্রকৃত প্রতিষ্ঠানের তথ্য ব্যবহার করুন"
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "20px"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0006",
+         "blockName": "Utility right",
+         "children": [
+          {
+           "attributes": {
+            "href": "/about-school"
+           },
+           "baseStyles": {
+            "color": "#E7F0F7",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0004",
+           "blockName": "English language label",
+           "children": [],
+           "element": "a",
+           "innerHTML": "About"
+          },
+          {
+           "attributes": {
+            "href": "https://moedu.gov.bd/",
+            "rel": "noopener noreferrer",
+            "target": "_blank"
+           },
+           "baseStyles": {
+            "color": "#E7F0F7",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0005",
+           "blockName": "Gov external",
+           "children": [],
+           "element": "a",
+           "innerHTML": "শিক্ষা মন্ত্রণালয় ↗"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "transparent",
+            "border": "1px solid rgba(255,255,255,.35)",
+            "borderRadius": "4px",
+            "color": "#E7F0F7",
+            "cursor": "pointer",
+            "fontSize": "12px",
+            "fontWeight": "650",
+            "lineHeight": "1.45",
+            "padding": "3px 7px"
+           },
+           "blockId": "pg-teachers-staff-global-school21-Motion preference toggle",
+           "blockName": "Motion preference toggle",
+           "children": [],
+           "classes": [
+            "school-motion-toggle"
+           ],
+           "customAttributes": {
+            "aria-label": "অ্যানিমেশন বন্ধ করুন",
+            "aria-pressed": "false",
+            "type": "button"
+           },
+           "element": "button",
+           "innerHTML": "অ্যানিমেশন বন্ধ"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "flexWrap": "wrap",
+          "gap": "8px",
+          "maxWidth": "100%"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "4px"
+       }
+      }
+     ],
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#fff",
+      "borderBottom": "1px solid #E1E7EC"
+     },
+     "blockId": "pg-teachers-staff-global-school2-0021",
+     "blockName": "School identity masthead",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "gap": "20px",
+        "justifyContent": "space-between",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1248px",
+        "paddingBottom": "19px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "paddingTop": "20px",
+        "width": "100%"
+       },
+       "blockId": "pg-teachers-staff-global-school2-0020",
+       "blockName": "Masthead inner",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "17px",
+          "minWidth": "0px"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0015",
+         "blockName": "Logo and identity",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "#146344",
+            "border": "4px solid #E9F3F0",
+            "borderRadius": "60px",
+            "display": "flex",
+            "height": "75px",
+            "justifyContent": "center",
+            "minWidth": "75px",
+            "width": "75px"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0010",
+           "blockName": "School monogram",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "#fff",
+              "fontSize": "31px",
+              "fontWeight": "800",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0009",
+             "blockName": "Logo demo",
+             "children": [],
+             "element": "span",
+             "innerHTML": "শি"
+            }
+           ],
+           "classes": [
+            "school-logo",
+            "school-crest-motion"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "1px",
+            "minWidth": "0px"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0014",
+           "blockName": "School titles",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "#146344",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0011",
+             "blockName": "Gov department text",
+             "children": [],
+             "element": "span",
+             "innerHTML": "গণপ্রজাতন্ত্রী বাংলাদেশ সরকার • শিক্ষা মন্ত্রণালয়"
+            },
+            {
+             "baseStyles": {
+              "color": "#16334B",
+              "fontSize": "28px",
+              "fontWeight": "800",
+              "lineHeight": "1.38",
+              "margin": "0px"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0012",
+             "blockName": "School identity",
+             "children": [],
+             "dataKey": {
+              "comesFrom": "dataScript",
+              "key": "app_name",
+              "property": "innerHTML",
+              "type": "key"
+             },
+             "element": "h1",
+             "innerHTML": "আদর্শ সরকারি উচ্চ বিদ্যালয়"
+            },
+            {
+             "baseStyles": {
+              "color": "#647486",
+              "fontSize": "12px",
+              "fontWeight": "550",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0013",
+             "blockName": "School English name",
+             "children": [],
+             "element": "span",
+             "innerHTML": "Adarsha Government High School  |  ESTD. 19XX  |  EIIN: [000000]"
+            }
+           ],
+           "classes": [
+            "school-masthead-titles"
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "alignItems": "flex-end",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "minWidth": "0px",
+          "textAlign": "right"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0019",
+         "blockName": "Masthead right",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "#647486",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "1.55"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0016",
+           "blockName": "Office contact label",
+           "children": [],
+           "element": "span",
+           "innerHTML": "অফিস সময়: রবি–বৃহঃ • সকাল ৯টা–বিকাল ৪টা"
+          },
+          {
+           "baseStyles": {
+            "color": "#16334B",
+            "fontSize": "13px",
+            "fontWeight": "800",
+            "lineHeight": "1.55"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0017",
+           "blockName": "School address label",
+           "children": [],
+           "dataKey": {
+            "comesFrom": "dataScript",
+            "key": "contact.address",
+            "property": "innerHTML",
+            "type": "key"
+           },
+           "element": "span",
+           "innerHTML": "[উপজেলা], [জেলা] • বাংলাদেশ"
+          },
+          {
+           "attributes": {
+            "href": "/contact"
+           },
+           "baseStyles": {
+            "alignSelf": "flex-end",
+            "color": "#146344",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0018",
+           "blockName": "Contact school masthead",
+           "children": [],
+           "element": "a",
+           "innerHTML": "✉  যোগাযোগ করুন"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "textAlign": "left"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "11px"
+       }
+      }
+     ],
+     "classes": [
+      "school-masthead"
+     ],
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#146344",
+      "width": "100%"
+     },
+     "blockId": "pg-teachers-staff-global-school2-0036",
+     "blockName": "Primary institutional navigation",
+     "children": [
+      {
+       "baseStyles": {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1248px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "width": "100%"
+       },
+       "blockId": "pg-teachers-staff-global-school2-0035",
+       "blockName": "Navigation strip",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "0px",
+          "overflowX": "auto",
+          "width": "100%"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0034",
+         "blockName": "Navigation links",
+         "children": [
+          {
+           "attributes": {
+            "href": "/school-home-v22"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0022",
+           "blockName": "Menu প্রচ্ছদ",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "প্রচ্ছদ"
+          },
+          {
+           "attributes": {
+            "href": "/about-school"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0023",
+           "blockName": "Menu বিদ্যালয় পরিচিতি",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "বিদ্যালয় পরিচিতি"
+          },
+          {
+           "attributes": {
+            "href": "/administration"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0024",
+           "blockName": "Menu প্রশাসন",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "প্রশাসন"
+          },
+          {
+           "attributes": {
+            "href": "/academic"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0025",
+           "blockName": "Menu একাডেমিক",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "একাডেমিক"
+          },
+          {
+           "attributes": {
+            "href": "/student-corner"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0026",
+           "blockName": "Menu শিক্ষার্থী কর্নার",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "শিক্ষার্থী কর্নার"
+          },
+          {
+           "attributes": {
+            "href": "/admission"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0027",
+           "blockName": "Menu ভর্তি",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "ভর্তি"
+          },
+          {
+           "attributes": {
+            "href": "/results"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0028",
+           "blockName": "Menu ফলাফল",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "ফলাফল"
+          },
+          {
+           "attributes": {
+            "href": "/notices"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0029",
+           "blockName": "Menu নোটিশ বোর্ড",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "নোটিশ বোর্ড"
+          },
+          {
+           "attributes": {
+            "href": "/news-events"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0030",
+           "blockName": "Menu সংবাদ ও অনুষ্ঠান",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "সংবাদ ও অনুষ্ঠান"
+          },
+          {
+           "attributes": {
+            "href": "/gallery"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0031",
+           "blockName": "Menu গ্যালারি",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "গ্যালারি"
+          },
+          {
+           "attributes": {
+            "href": "/downloads"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0032",
+           "blockName": "Menu ডাউনলোড",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "ডাউনলোড"
+          },
+          {
+           "attributes": {
+            "href": "/contact"
+           },
+           "baseStyles": {
+            "color": "#fff",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "padding": "15px 11px",
+            "textDecoration": "none",
+            "whiteSpace": "nowrap"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0033",
+           "blockName": "Menu যোগাযোগ",
+           "children": [],
+           "classes": [
+            "nav-link"
+           ],
+           "element": "a",
+           "innerHTML": "যোগাযোগ"
+          }
+         ],
+         "classes": [
+          "nav-scroll"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div"
+      }
+     ],
+     "customAttributes": {
+      "aria-label": "প্রধান মেনু",
+      "role": "navigation"
+     },
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#E2AD4B",
+      "height": "3px",
+      "left": "0px",
+      "pointerEvents": "none",
+      "position": "fixed",
+      "top": "0px",
+      "transform": "scaleX(0)",
+      "transformOrigin": "left center",
+      "width": "100%",
+      "zIndex": "9998"
+     },
+     "blockId": "pg-teachers-staff-global-school21-progress",
+     "blockName": "Scroll progress (decorative)",
+     "children": [],
+     "classes": [
+      "school-progress-bar"
+     ],
+     "customAttributes": {
+      "aria-hidden": "true"
+     },
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "1248px",
+      "paddingBottom": "18px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "18px",
+      "width": "100%"
+     },
+     "blockId": "pg-teachers-staff-global-school2-0047",
+     "blockName": "Important notice ticker",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "#FFF8ED",
+        "border": "1px solid #F0E3CE",
+        "display": "flex",
+        "gap": "15px",
+        "overflow": "hidden",
+        "width": "100%"
+       },
+       "blockId": "pg-teachers-staff-global-school2-0046",
+       "blockName": "Ticker content",
+       "children": [
+        {
+         "baseStyles": {
+          "backgroundColor": "#BC3D3B",
+          "color": "#fff",
+          "fontSize": "12px",
+          "fontWeight": "800",
+          "lineHeight": "1.55",
+          "padding": "11px 13px",
+          "whiteSpace": "nowrap"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0037",
+         "blockName": "Urgent news badge",
+         "children": [],
+         "element": "span",
+         "innerHTML": "সর্বশেষ আপডেট"
+        },
+        {
+         "baseStyles": {
+          "flex": "1 1 0px",
+          "minWidth": "0px",
+          "overflow": "hidden"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0044",
+         "blockName": "Ticker marquee",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": "26px",
+            "width": "max-content"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0043",
+           "blockName": "Ticker message items",
+           "children": [
+            {
+             "attributes": {
+              "href": "/admission-notices"
+             },
+             "baseStyles": {
+              "color": "#146344",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0038",
+             "blockName": "Ticker 1",
+             "children": [],
+             "element": "a",
+             "innerHTML": "২০২৭ শিক্ষাবর্ষের ভর্তি বিজ্ঞপ্তি ও নির্দেশিকা"
+            },
+            {
+             "baseStyles": {
+              "color": "#9CAEB4",
+              "fontSize": "8px",
+              "fontWeight": "700",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0039",
+             "blockName": "Ticker separator 1",
+             "children": [],
+             "element": "span",
+             "innerHTML": "◆"
+            },
+            {
+             "attributes": {
+              "href": "/class-routine"
+             },
+             "baseStyles": {
+              "color": "#146344",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0040",
+             "blockName": "Ticker 2",
+             "children": [],
+             "element": "a",
+             "innerHTML": "বার্ষিক পরীক্ষার প্রস্তুতি ও সংশোধিত রুটিন"
+            },
+            {
+             "baseStyles": {
+              "color": "#9CAEB4",
+              "fontSize": "8px",
+              "fontWeight": "700",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0041",
+             "blockName": "Ticker separator 2",
+             "children": [],
+             "element": "span",
+             "innerHTML": "◆"
+            },
+            {
+             "attributes": {
+              "href": "/student-corner"
+             },
+             "baseStyles": {
+              "color": "#146344",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0042",
+             "blockName": "Ticker 3",
+             "children": [],
+             "element": "a",
+             "innerHTML": "ষষ্ঠ থেকে দশম শ্রেণির শিক্ষার্থীদের তথ্য হালনাগাদ"
+            }
+           ],
+           "classes": [
+            "ticker-track"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "school-ticker-viewport"
+         ],
+         "element": "div"
+        },
+        {
+         "attributes": {
+          "href": "/notices"
+         },
+         "baseStyles": {
+          "color": "#146344",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "marginRight": "15px",
+          "textDecoration": "none",
+          "whiteSpace": "nowrap"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0045",
+         "blockName": "Ticker all notices",
+         "children": [],
+         "element": "a",
+         "innerHTML": "সকল নোটিশ ↗"
+        }
+       ],
+       "classes": [
+        "ticker-line"
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "8px"
+       }
+      }
+     ],
+     "classes": [
+      "ticker-shell"
+     ],
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "1248px",
+      "paddingBottom": "11px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "11px",
+      "width": "100%"
+     },
+     "blockId": "pg-teachers-staff-0006",
+     "blockName": "Breadcrumb shell",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "gap": "9px"
+       },
+       "blockId": "pg-teachers-staff-0005",
+       "blockName": "Breadcrumb links",
+       "children": [
+        {
+         "attributes": {
+          "href": "/school-home-v22"
+         },
+         "baseStyles": {
+          "color": "#146344",
+          "fontSize": "13px",
+          "fontWeight": "700",
+          "textDecoration": "none"
+         },
+         "blockId": "pg-teachers-staff-0002",
+         "blockName": "Breadcrumb home",
+         "children": [],
+         "element": "a",
+         "innerHTML": "প্রচ্ছদ"
+        },
+        {
+         "baseStyles": {
+          "color": "#647486",
+          "fontSize": "15px",
+          "fontWeight": "600",
+          "lineHeight": "1.62"
+         },
+         "blockId": "pg-teachers-staff-0003",
+         "blockName": "Breadcrumb divider",
+         "children": [],
+         "element": "span",
+         "innerHTML": "›"
+        },
+        {
+         "baseStyles": {
+          "color": "#647486",
+          "fontSize": "12px",
+          "fontWeight": "650",
+          "lineHeight": "1.62"
+         },
+         "blockId": "pg-teachers-staff-0004",
+         "blockName": "Breadcrumb current",
+         "children": [],
+         "element": "span",
+         "innerHTML": "শিক্ষক ও কর্মচারী"
+        }
+       ],
+       "element": "div"
+      }
+     ],
+     "classes": [
+      "page-breadcrumb"
+     ],
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "8px",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "1248px",
+      "paddingBottom": "24px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "23px",
+      "width": "100%"
+     },
+     "blockId": "pg-teachers-staff-0011",
+     "blockName": "Page title hero",
+     "children": [
+      {
+       "baseStyles": {
+        "color": "#146344",
+        "fontSize": "11px",
+        "fontWeight": "800",
+        "lineHeight": "1.62"
+       },
+       "blockId": "pg-teachers-staff-0007",
+       "blockName": "Page eyebrow",
+       "children": [],
+       "element": "span",
+       "innerHTML": "আদর্শ সরকারি উচ্চ বিদ্যালয় • প্রাতিষ্ঠানিক তথ্য"
+      },
+      {
+       "baseStyles": {
+        "color": "#16334B",
+        "fontSize": "30px",
+        "fontWeight": "850",
+        "lineHeight": "1.35",
+        "margin": "2px 0 0"
+       },
+       "blockId": "pg-teachers-staff-0008",
+       "blockName": "Page title",
+       "children": [],
+       "element": "h1",
+       "innerHTML": "শিক্ষক ও কর্মচারী"
+      },
+      {
+       "baseStyles": {
+        "color": "#647486",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "1.62",
+        "maxWidth": "850px"
+       },
+       "blockId": "pg-teachers-staff-0009",
+       "blockName": "Page lead",
+       "children": [],
+       "element": "span",
+       "innerHTML": "বিষয়ভিত্তিক শিক্ষক, কর্মকর্তা ও কর্মচারীদের তালিকা।"
+      },
+      {
+       "baseStyles": {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EAF4F1",
+        "borderRadius": "4px",
+        "color": "#146344",
+        "fontSize": "11px",
+        "fontWeight": "750",
+        "lineHeight": "1.62",
+        "padding": "4px 8px"
+       },
+       "blockId": "pg-teachers-staff-0010",
+       "blockName": "Page category",
+       "children": [],
+       "element": "span",
+       "innerHTML": "administration"
+      }
+     ],
+     "classes": [
+      "page-hero school-reveal"
+     ],
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "1248px",
+      "paddingBottom": "42px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "8px",
+      "width": "100%"
+     },
+     "blockId": "pg-teachers-staff-0095",
+     "blockName": "Page main content",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "gap": "20px"
+       },
+       "blockId": "pg-teachers-staff-0094",
+       "blockName": "Page two column layout",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flex": "1 1 0px",
+          "flexDirection": "column",
+          "gap": "2px",
+          "minWidth": "0px"
+         },
+         "blockId": "pg-teachers-staff-0093",
+         "blockName": "Page section main column",
+         "children": [
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "14px",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "maxWidth": "1248px",
+            "paddingBottom": "24px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px",
+            "paddingTop": "22px",
+            "width": "100%"
+           },
+           "blockId": "pg-teachers-staff-0054",
+           "blockName": "শিক্ষক তালিকা section",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-end",
+              "borderBottom": "2px solid #E1E7EC",
+              "display": "flex",
+              "gap": "12px",
+              "justifyContent": "space-between",
+              "paddingBottom": "12px"
+             },
+             "blockId": "pg-teachers-staff-0053",
+             "blockName": "শিক্ষক তালিকা section header",
+             "children": [
+              {
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "2px",
+                "minWidth": "0px"
+               },
+               "blockId": "pg-teachers-staff-0051",
+               "blockName": "শিক্ষক তালিকা heading stack",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#16334B",
+                  "fontSize": "20px",
+                  "fontWeight": "800",
+                  "lineHeight": "1.62",
+                  "margin": "0px"
+                 },
+                 "blockId": "pg-teachers-staff-0049",
+                 "blockName": "শিক্ষক তালিকা heading",
+                 "children": [],
+                 "element": "h2",
+                 "innerHTML": "শিক্ষক তালিকা"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#647486",
+                  "fontSize": "12px",
+                  "fontWeight": "450",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0050",
+                 "blockName": "শিক্ষক তালিকা subtitle",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "বিষয়ভিত্তিক শিক্ষক পরিচিতি"
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "color": "#146344",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "lineHeight": "1.62"
+               },
+               "blockId": "pg-teachers-staff-0052",
+               "blockName": "শিক্ষক তালিকা section tag",
+               "children": [],
+               "element": "span",
+               "innerHTML": "নমুনা"
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "#fff",
+              "border": "1px solid #E1E7EC",
+              "borderRadius": "8px",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "0px",
+              "minWidth": "0px",
+              "overflow": "hidden"
+             },
+             "blockId": "pg-teachers-staff-0048",
+             "blockName": "শিক্ষক তালিকা table",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "#EDF4F1",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0015",
+               "blockName": "শিক্ষক তালিকা table header",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#16334B",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "800",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0012",
+                 "blockName": "শিক্ষক তালিকা column 1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "বিষয়/শাখা"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#16334B",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "800",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0013",
+                 "blockName": "শিক্ষক তালিকা column 2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "পদবি"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#16334B",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "800",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0014",
+                 "blockName": "শিক্ষক তালিকা column 3",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "নাম ও পরিচিতি"
+                }
+               ],
+               "classes": [
+                "page-table-row page-table-head"
+               ],
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0019",
+               "blockName": "শিক্ষক তালিকা table row 1",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0016",
+                 "blockName": "শিক্ষক তালিকা cell 1-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "বাংলা"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0017",
+                 "blockName": "শিক্ষক তালিকা cell 1-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0018",
+                 "blockName": "শিক্ষক তালিকা profile link 1",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0023",
+               "blockName": "শিক্ষক তালিকা table row 2",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0020",
+                 "blockName": "শিক্ষক তালিকা cell 2-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "ইংরেজি"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0021",
+                 "blockName": "শিক্ষক তালিকা cell 2-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0022",
+                 "blockName": "শিক্ষক তালিকা profile link 2",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0027",
+               "blockName": "শিক্ষক তালিকা table row 3",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0024",
+                 "blockName": "শিক্ষক তালিকা cell 3-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "গণিত"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0025",
+                 "blockName": "শিক্ষক তালিকা cell 3-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0026",
+                 "blockName": "শিক্ষক তালিকা profile link 3",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0031",
+               "blockName": "শিক্ষক তালিকা table row 4",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0028",
+                 "blockName": "শিক্ষক তালিকা cell 4-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "বিজ্ঞান"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0029",
+                 "blockName": "শিক্ষক তালিকা cell 4-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0030",
+                 "blockName": "শিক্ষক তালিকা profile link 4",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0035",
+               "blockName": "শিক্ষক তালিকা table row 5",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0032",
+                 "blockName": "শিক্ষক তালিকা cell 5-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "তথ্য ও যোগাযোগ প্রযুক্তি"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0033",
+                 "blockName": "শিক্ষক তালিকা cell 5-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0034",
+                 "blockName": "শিক্ষক তালিকা profile link 5",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0039",
+               "blockName": "শিক্ষক তালিকা table row 6",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0036",
+                 "blockName": "শিক্ষক তালিকা cell 6-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সামাজিক বিজ্ঞান"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0037",
+                 "blockName": "শিক্ষক তালিকা cell 6-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0038",
+                 "blockName": "শিক্ষক তালিকা profile link 6",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0043",
+               "blockName": "শিক্ষক তালিকা table row 7",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0040",
+                 "blockName": "শিক্ষক তালিকা cell 7-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "ধর্ম ও নৈতিক শিক্ষা"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0041",
+                 "blockName": "শিক্ষক তালিকা cell 7-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0042",
+                 "blockName": "শিক্ষক তালিকা profile link 7",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "11px 14px"
+               },
+               "blockId": "pg-teachers-staff-0047",
+               "blockName": "শিক্ষক তালিকা table row 8",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0044",
+                 "blockName": "শিক্ষক তালিকা cell 8-1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "শারীরিক শিক্ষা"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1F3448",
+                  "flex": "1 1 0px",
+                  "fontSize": "12px",
+                  "fontWeight": "600",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0045",
+                 "blockName": "শিক্ষক তালিকা cell 8-2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "সহকারী শিক্ষক"
+                },
+                {
+                 "attributes": {
+                  "href": "/teacher-profile"
+                 },
+                 "baseStyles": {
+                  "color": "#146344",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "pg-teachers-staff-0046",
+                 "blockName": "শিক্ষক তালিকা profile link 8",
+                 "children": [],
+                 "element": "a",
+                 "innerHTML": "প্রোফাইল ↗"
+                }
+               ],
+               "classes": [
+                "page-table-row"
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "flexWrap": "wrap"
+               }
+              }
+             ],
+             "classes": [
+              "page-table"
+             ],
+             "element": "div"
+            }
+           ],
+           "classes": [
+            "school-reveal page-section"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "14px",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "maxWidth": "1248px",
+            "paddingBottom": "24px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px",
+            "paddingTop": "22px",
+            "width": "100%"
+           },
+           "blockId": "pg-teachers-staff-0076",
+           "blockName": "কর্মকর্তা ও কর্মচারী section",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-end",
+              "borderBottom": "2px solid #E1E7EC",
+              "display": "flex",
+              "gap": "12px",
+              "justifyContent": "space-between",
+              "paddingBottom": "12px"
+             },
+             "blockId": "pg-teachers-staff-0075",
+             "blockName": "কর্মকর্তা ও কর্মচারী section header",
+             "children": [
+              {
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "2px",
+                "minWidth": "0px"
+               },
+               "blockId": "pg-teachers-staff-0073",
+               "blockName": "কর্মকর্তা ও কর্মচারী heading stack",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#16334B",
+                  "fontSize": "20px",
+                  "fontWeight": "800",
+                  "lineHeight": "1.62",
+                  "margin": "0px"
+                 },
+                 "blockId": "pg-teachers-staff-0071",
+                 "blockName": "কর্মকর্তা ও কর্মচারী heading",
+                 "children": [],
+                 "element": "h2",
+                 "innerHTML": "কর্মকর্তা ও কর্মচারী"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#647486",
+                  "fontSize": "12px",
+                  "fontWeight": "450",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0072",
+                 "blockName": "কর্মকর্তা ও কর্মচারী subtitle",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "অফিস ও সহায়ক জনবল"
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "color": "#146344",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "lineHeight": "1.62"
+               },
+               "blockId": "pg-teachers-staff-0074",
+               "blockName": "কর্মকর্তা ও কর্মচারী section tag",
+               "children": [],
+               "element": "span",
+               "innerHTML": "নমুনা"
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "0px",
+              "minWidth": "0px"
+             },
+             "blockId": "pg-teachers-staff-0070",
+             "blockName": "কর্মকর্তা ও কর্মচারী rows",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "12px 2px"
+               },
+               "blockId": "pg-teachers-staff-0059",
+               "blockName": "কর্মকর্তা ও কর্মচারী row 1",
+               "children": [
+                {
+                 "baseStyles": {
+                  "display": "flex",
+                  "flex": "1 1 0px",
+                  "flexDirection": "column",
+                  "gap": "2px",
+                  "minWidth": "0px"
+                 },
+                 "blockId": "pg-teachers-staff-0057",
+                 "blockName": "কর্মকর্তা ও কর্মচারী row text 1",
+                 "children": [
+                  {
+                   "baseStyles": {
+                    "color": "#16334B",
+                    "fontSize": "14px",
+                    "fontWeight": "750",
+                    "lineHeight": "1.62"
+                   },
+                   "blockId": "pg-teachers-staff-0055",
+                   "blockName": "কর্মকর্তা ও কর্মচারী row title 1",
+                   "children": [],
+                   "element": "span",
+                   "innerHTML": "অফিস সহকারী"
+                  },
+                  {
+                   "baseStyles": {
+                    "color": "#647486",
+                    "fontSize": "12px",
+                    "fontWeight": "450",
+                    "lineHeight": "1.62"
+                   },
+                   "blockId": "pg-teachers-staff-0056",
+                   "blockName": "কর্মকর্তা ও কর্মচারী row desc 1",
+                   "children": [],
+                   "element": "span",
+                   "innerHTML": "নাম ও দায়িত্ব সংযোজন করুন।"
+                  }
+                 ],
+                 "element": "div"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#647486",
+                  "fontSize": "11px",
+                  "fontWeight": "650",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0058",
+                 "blockName": "কর্মকর্তা ও কর্মচারী row placeholder 1",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "তথ্য সংযোজন করুন"
+                }
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "alignItems": "flex-start"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "12px 2px"
+               },
+               "blockId": "pg-teachers-staff-0064",
+               "blockName": "কর্মকর্তা ও কর্মচারী row 2",
+               "children": [
+                {
+                 "baseStyles": {
+                  "display": "flex",
+                  "flex": "1 1 0px",
+                  "flexDirection": "column",
+                  "gap": "2px",
+                  "minWidth": "0px"
+                 },
+                 "blockId": "pg-teachers-staff-0062",
+                 "blockName": "কর্মকর্তা ও কর্মচারী row text 2",
+                 "children": [
+                  {
+                   "baseStyles": {
+                    "color": "#16334B",
+                    "fontSize": "14px",
+                    "fontWeight": "750",
+                    "lineHeight": "1.62"
+                   },
+                   "blockId": "pg-teachers-staff-0060",
+                   "blockName": "কর্মকর্তা ও কর্মচারী row title 2",
+                   "children": [],
+                   "element": "span",
+                   "innerHTML": "হিসাব/স্টোর দায়িত্ব"
+                  },
+                  {
+                   "baseStyles": {
+                    "color": "#647486",
+                    "fontSize": "12px",
+                    "fontWeight": "450",
+                    "lineHeight": "1.62"
+                   },
+                   "blockId": "pg-teachers-staff-0061",
+                   "blockName": "কর্মকর্তা ও কর্মচারী row desc 2",
+                   "children": [],
+                   "element": "span",
+                   "innerHTML": "নাম ও দায়িত্ব সংযোজন করুন।"
+                  }
+                 ],
+                 "element": "div"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#647486",
+                  "fontSize": "11px",
+                  "fontWeight": "650",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0063",
+                 "blockName": "কর্মকর্তা ও কর্মচারী row placeholder 2",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "তথ্য সংযোজন করুন"
+                }
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "alignItems": "flex-start"
+               }
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "borderBottom": "1px solid #E1E7EC",
+                "display": "flex",
+                "gap": "12px",
+                "padding": "12px 2px"
+               },
+               "blockId": "pg-teachers-staff-0069",
+               "blockName": "কর্মকর্তা ও কর্মচারী row 3",
+               "children": [
+                {
+                 "baseStyles": {
+                  "display": "flex",
+                  "flex": "1 1 0px",
+                  "flexDirection": "column",
+                  "gap": "2px",
+                  "minWidth": "0px"
+                 },
+                 "blockId": "pg-teachers-staff-0067",
+                 "blockName": "কর্মকর্তা ও কর্মচারী row text 3",
+                 "children": [
+                  {
+                   "baseStyles": {
+                    "color": "#16334B",
+                    "fontSize": "14px",
+                    "fontWeight": "750",
+                    "lineHeight": "1.62"
+                   },
+                   "blockId": "pg-teachers-staff-0065",
+                   "blockName": "কর্মকর্তা ও কর্মচারী row title 3",
+                   "children": [],
+                   "element": "span",
+                   "innerHTML": "সহায়ক কর্মচারী"
+                  },
+                  {
+                   "baseStyles": {
+                    "color": "#647486",
+                    "fontSize": "12px",
+                    "fontWeight": "450",
+                    "lineHeight": "1.62"
+                   },
+                   "blockId": "pg-teachers-staff-0066",
+                   "blockName": "কর্মকর্তা ও কর্মচারী row desc 3",
+                   "children": [],
+                   "element": "span",
+                   "innerHTML": "নাম ও দায়িত্ব সংযোজন করুন。"
+                  }
+                 ],
+                 "element": "div"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#647486",
+                  "fontSize": "11px",
+                  "fontWeight": "650",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0068",
+                 "blockName": "কর্মকর্তা ও কর্মচারী row placeholder 3",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": "তথ্য সংযোজন করুন"
+                }
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "alignItems": "flex-start"
+               }
+              }
+             ],
+             "classes": [
+              "page-list"
+             ],
+             "element": "div"
+            }
+           ],
+           "classes": [
+            "school-reveal page-section"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "14px",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "maxWidth": "1248px",
+            "paddingBottom": "24px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px",
+            "paddingTop": "22px",
+            "width": "100%"
+           },
+           "blockId": "pg-teachers-staff-0085",
+           "blockName": "তথ্য প্রকাশের নীতিমালা section",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-end",
+              "borderBottom": "2px solid #E1E7EC",
+              "display": "flex",
+              "gap": "12px",
+              "justifyContent": "space-between",
+              "paddingBottom": "12px"
+             },
+             "blockId": "pg-teachers-staff-0084",
+             "blockName": "তথ্য প্রকাশের নীতিমালা section header",
+             "children": [
+              {
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "2px",
+                "minWidth": "0px"
+               },
+               "blockId": "pg-teachers-staff-0082",
+               "blockName": "তথ্য প্রকাশের নীতিমালা heading stack",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "#16334B",
+                  "fontSize": "20px",
+                  "fontWeight": "800",
+                  "lineHeight": "1.62",
+                  "margin": "0px"
+                 },
+                 "blockId": "pg-teachers-staff-0080",
+                 "blockName": "তথ্য প্রকাশের নীতিমালা heading",
+                 "children": [],
+                 "element": "h2",
+                 "innerHTML": "তথ্য প্রকাশের নীতিমালা"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#647486",
+                  "fontSize": "12px",
+                  "fontWeight": "450",
+                  "lineHeight": "1.62"
+                 },
+                 "blockId": "pg-teachers-staff-0081",
+                 "blockName": "তথ্য প্রকাশের নীতিমালা subtitle",
+                 "children": [],
+                 "element": "span",
+                 "innerHTML": ""
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "color": "#146344",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "lineHeight": "1.62"
+               },
+               "blockId": "pg-teachers-staff-0083",
+               "blockName": "তথ্য প্রকাশের নীতিমালা section tag",
+               "children": [],
+               "element": "span",
+               "innerHTML": "নমুনা"
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "#EEF5F2",
+              "border": "1px solid #E1E7EC",
+              "borderLeft": "4px solid #146344",
+              "borderRadius": "8px",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "9px",
+              "minWidth": "0px",
+              "padding": "16px"
+             },
+             "blockId": "pg-teachers-staff-0079",
+             "blockName": "তথ্য প্রকাশের নীতিমালা callout",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "#16334B",
+                "fontSize": "16px",
+                "fontWeight": "800",
+                "lineHeight": "1.62"
+               },
+               "blockId": "pg-teachers-staff-0077",
+               "blockName": "তথ্য প্রকাশের নীতিমালা callout title",
+               "children": [],
+               "element": "h3",
+               "innerHTML": "তথ্য প্রকাশের নীতিমালা"
+              },
+              {
+               "baseStyles": {
+                "color": "#647486",
+                "fontSize": "13px",
+                "fontWeight": "500",
+                "lineHeight": "1.62"
+               },
+               "blockId": "pg-teachers-staff-0078",
+               "blockName": "তথ্য প্রকাশের নীতিমালা callout body",
+               "children": [],
+               "element": "span",
+               "innerHTML": "প্রকাশের আগে সংশ্লিষ্ট ব্যক্তির সম্মতি, পদবি, বিষয় ও তথ্য যাচাই করুন। ব্যক্তিগত ফোন নম্বর প্রকাশের প্রয়োজন না থাকলে প্রকাশ করবেন না।"
+              }
+             ],
+             "classes": [
+              "page-callout"
+             ],
+             "element": "div"
+            }
+           ],
+           "classes": [
+            "school-reveal page-section"
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#fff",
+          "border": "1px solid #E1E7EC",
+          "borderRadius": "8px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "minWidth": "220px",
+          "padding": "16px",
+          "position": "sticky",
+          "top": "12px"
+         },
+         "blockId": "pg-teachers-staff-0092",
+         "blockName": "Page section sidebar",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "#16334B",
+            "fontSize": "15px",
+            "fontWeight": "800",
+            "lineHeight": "1.62"
+           },
+           "blockId": "pg-teachers-staff-0086",
+           "blockName": "Sidebar heading",
+           "children": [],
+           "element": "h3",
+           "innerHTML": "এই বিভাগের পৃষ্ঠা"
+          },
+          {
+           "attributes": {
+            "href": "/administration"
+           },
+           "baseStyles": {
+            "borderBottom": "1px solid #E1E7EC",
+            "color": "#1F3448",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "padding": "9px 0",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-0087",
+           "blockName": "Sidebar link 1",
+           "children": [],
+           "element": "a",
+           "innerHTML": "প্রশাসন"
+          },
+          {
+           "attributes": {
+            "href": "/headteacher-message"
+           },
+           "baseStyles": {
+            "borderBottom": "1px solid #E1E7EC",
+            "color": "#1F3448",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "padding": "9px 0",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-0088",
+           "blockName": "Sidebar link 2",
+           "children": [],
+           "element": "a",
+           "innerHTML": "প্রধান শিক্ষকের বাণী"
+          },
+          {
+           "attributes": {
+            "href": "/teachers-staff"
+           },
+           "baseStyles": {
+            "borderBottom": "1px solid #E1E7EC",
+            "color": "#1F3448",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "padding": "9px 0",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-0089",
+           "blockName": "Sidebar link 3",
+           "children": [],
+           "element": "a",
+           "innerHTML": "শিক্ষক ও কর্মচারী"
+          },
+          {
+           "attributes": {
+            "href": "/teacher-profile"
+           },
+           "baseStyles": {
+            "borderBottom": "1px solid #E1E7EC",
+            "color": "#1F3448",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "padding": "9px 0",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-0090",
+           "blockName": "Sidebar link 4",
+           "children": [],
+           "element": "a",
+           "innerHTML": "শিক্ষক পরিচিতি"
+          },
+          {
+           "attributes": {
+            "href": "/management-committee"
+           },
+           "baseStyles": {
+            "borderBottom": "1px solid #E1E7EC",
+            "color": "#1F3448",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "padding": "9px 0",
+            "textDecoration": "none"
+           },
+           "blockId": "pg-teachers-staff-0091",
+           "blockName": "Sidebar link 5",
+           "children": [],
+           "element": "a",
+           "innerHTML": "পরিচালনা কমিটি"
+          }
+         ],
+         "classes": [
+          "page-aside"
+         ],
+         "element": "div"
+        }
+       ],
+       "classes": [
+        "page-two-col"
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       }
+      }
+     ],
+     "classes": [
+      "page-main"
+     ],
+     "element": "div"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#102A42",
+      "width": "100%"
+     },
+     "blockId": "pg-teachers-staff-global-school2-0521",
+     "blockName": "Portal footer",
+     "children": [
+      {
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "28px",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1248px",
+        "paddingBottom": "21px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "paddingTop": "38px",
+        "width": "100%"
+       },
+       "blockId": "pg-teachers-staff-global-school2-0520",
+       "blockName": "Footer content",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "gap": "27px"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0516",
+         "blockName": "Footer columns",
+         "children": [
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flex": "1.3 1 0px",
+            "flexDirection": "column",
+            "gap": "10px",
+            "minWidth": "0px"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0496",
+           "blockName": "School footer identity",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "#fff",
+              "fontSize": "21px",
+              "fontWeight": "800",
+              "lineHeight": "1.55",
+              "margin": "0px"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0493",
+             "blockName": "Footer school name",
+             "children": [],
+             "dataKey": {
+              "comesFrom": "dataScript",
+              "key": "app_name",
+              "property": "innerHTML",
+              "type": "key"
+             },
+             "element": "h2",
+             "innerHTML": "আদর্শ সরকারি উচ্চ বিদ্যালয়"
+            },
+            {
+             "baseStyles": {
+              "color": "#CBDDD5",
+              "fontSize": "13px",
+              "fontWeight": "500",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0494",
+             "blockName": "Footer motto",
+             "children": [],
+             "element": "span",
+             "innerHTML": "শিক্ষা, নৈতিকতা ও সৃজনশীলতার অঙ্গীকার।"
+            },
+            {
+             "baseStyles": {
+              "color": "#B9D0C6",
+              "fontSize": "12px",
+              "fontWeight": "450",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0495",
+             "blockName": "Footer caution",
+             "children": [],
+             "element": "span",
+             "innerHTML": "ডেমো টেমপ্লেট: ঠিকানা, EIIN, ফোন, ইতিহাস ও সকল নোটিশ প্রকাশের আগে যাচাই করুন।"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flex": "0.7 1 0px",
+            "flexDirection": "column",
+            "gap": "10px",
+            "minWidth": "0px"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0502",
+           "blockName": "Footer academic",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "#fff",
+              "fontSize": "15px",
+              "fontWeight": "800",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0497",
+             "blockName": "Footer academic title",
+             "children": [],
+             "element": "span",
+             "innerHTML": "একাডেমিক"
+            },
+            {
+             "attributes": {
+              "href": "/syllabus"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0498",
+             "blockName": "Footer academic সিলেবাস",
+             "children": [],
+             "element": "a",
+             "innerHTML": "সিলেবাস"
+            },
+            {
+             "attributes": {
+              "href": "/results"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0499",
+             "blockName": "Footer academic পরীক্ষা ও ফলাফল",
+             "children": [],
+             "element": "a",
+             "innerHTML": "পরীক্ষা ও ফলাফল"
+            },
+            {
+             "attributes": {
+              "href": "/student-corner"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0500",
+             "blockName": "Footer academic শিক্ষার্থী কর্নার",
+             "children": [],
+             "element": "a",
+             "innerHTML": "শিক্ষার্থী কর্নার"
+            },
+            {
+             "attributes": {
+              "href": "/downloads"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0501",
+             "blockName": "Footer academic ডাউনলোড",
+             "children": [],
+             "element": "a",
+             "innerHTML": "ডাউনলোড"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flex": "0.8 1 0px",
+            "flexDirection": "column",
+            "gap": "10px",
+            "minWidth": "0px"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0508",
+           "blockName": "Footer governance",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "#fff",
+              "fontSize": "15px",
+              "fontWeight": "800",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0503",
+             "blockName": "Footer gov title",
+             "children": [],
+             "element": "span",
+             "innerHTML": "প্রশাসন ও তথ্য"
+            },
+            {
+             "attributes": {
+              "href": "/headteacher-message"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0504",
+             "blockName": "Footer gov প্রধান শিক্ষক",
+             "children": [],
+             "element": "a",
+             "innerHTML": "প্রধান শিক্ষক"
+            },
+            {
+             "attributes": {
+              "href": "/management-committee"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0505",
+             "blockName": "Footer gov পরিচালনা কমিটি",
+             "children": [],
+             "element": "a",
+             "innerHTML": "পরিচালনা কমিটি"
+            },
+            {
+             "attributes": {
+              "href": "/citizen-charter"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0506",
+             "blockName": "Footer gov সিটিজেন চার্টার",
+             "children": [],
+             "element": "a",
+             "innerHTML": "সিটিজেন চার্টার"
+            },
+            {
+             "attributes": {
+              "href": "/contact"
+             },
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0507",
+             "blockName": "Footer gov যোগাযোগ",
+             "children": [],
+             "element": "a",
+             "innerHTML": "যোগাযোগ"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flex": "0.95 1 0px",
+            "flexDirection": "column",
+            "gap": "10px",
+            "minWidth": "0px"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0515",
+           "blockName": "Footer contact",
+           "children": [
+            {
+             "baseStyles": {
+              "height": "0px"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0509",
+             "blockName": "Footer id anchor",
+             "children": [],
+             "customAttributes": {
+              "id": "contact"
+             },
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "#fff",
+              "fontSize": "15px",
+              "fontWeight": "800",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0510",
+             "blockName": "Contact footer title",
+             "children": [],
+             "element": "span",
+             "innerHTML": "যোগাযোগ"
+            },
+            {
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "13px",
+              "fontWeight": "500",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0511",
+             "blockName": "Footer postal address",
+             "children": [],
+             "dataKey": {
+              "comesFrom": "dataScript",
+              "key": "contact.address",
+              "property": "innerHTML",
+              "type": "key"
+             },
+             "element": "span",
+             "innerHTML": "[উপজেলা], [জেলা], বাংলাদেশ"
+            },
+            {
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "13px",
+              "fontWeight": "500",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0512",
+             "blockName": "Footer phone number",
+             "children": [],
+             "dataKey": {
+              "comesFrom": "dataScript",
+              "key": "contact.phone",
+              "property": "innerHTML",
+              "type": "key"
+             },
+             "element": "span",
+             "innerHTML": "ফোন: [01XXXXXXXXX]"
+            },
+            {
+             "baseStyles": {
+              "color": "#D1E1DE",
+              "fontSize": "13px",
+              "fontWeight": "500",
+              "lineHeight": "1.55"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0513",
+             "blockName": "Footer email address",
+             "children": [],
+             "dataKey": {
+              "comesFrom": "dataScript",
+              "key": "contact.email",
+              "property": "innerHTML",
+              "type": "key"
+             },
+             "element": "span",
+             "innerHTML": "ইমেইল: [school@example.edu.bd]"
+            },
+            {
+             "attributes": {
+              "href": "#page-top"
+             },
+             "baseStyles": {
+              "color": "#E0EED3",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "textDecoration": "none"
+             },
+             "blockId": "pg-teachers-staff-global-school2-0514",
+             "blockName": "Footer top link",
+             "children": [],
+             "element": "a",
+             "innerHTML": "উপরে ফিরে যান ↑"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "footer-grid"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "flexWrap": "wrap"
+         }
+        },
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTop": "1px solid #39596A",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "12px",
+          "justifyContent": "space-between",
+          "paddingTop": "15px",
+          "width": "100%"
+         },
+         "blockId": "pg-teachers-staff-global-school2-0519",
+         "blockName": "Footer bottom",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "#CBDDD5",
+            "fontSize": "12px",
+            "fontWeight": "450",
+            "lineHeight": "1.55"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0517",
+           "blockName": "Footer copyright",
+           "children": [],
+           "dataKey": {
+            "comesFrom": "dataScript",
+            "key": "copyright",
+            "property": "innerHTML",
+            "type": "key"
+           },
+           "element": "span",
+           "innerHTML": "© ২০২৬ আদর্শ সরকারি উচ্চ বিদ্যালয় • ডেমো টেমপ্লেট"
+          },
+          {
+           "baseStyles": {
+            "color": "#CBDDD5",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "1.55"
+           },
+           "blockId": "pg-teachers-staff-global-school2-0518",
+           "blockName": "Footer version",
+           "children": [],
+           "element": "span",
+           "innerHTML": "Frappe Builder Editable Portal v2.2"
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div"
+      }
+     ],
+     "customAttributes": {
+      "role": "contentinfo"
+     },
+     "element": "div"
+    }
+   ],
+   "classes": [
+    "school-portal-body",
+    "school-inner-page",
+    "school-page-teachers-staff"
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "BD School Portal v2.2 Theme"
+  },
+  {
+   "builder_script": "BD School Portal v2.2 Interaction"
+  }
+ ],
+ "creation": "2026-11-12 05:45:08.730106",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "language": "bn",
+ "meta_description": "বিষয়ভিত্তিক শিক্ষক, কর্মকর্তা ও কর্মচারীদের তালিকা।",
+ "modified": "2026-11-12 05:45:08.812200",
+ "modified_by": "Administrator",
+ "name": "page-76a35b7a",
+ "owner": "Administrator",
+ "page_data_script": "# Standard Frappe Website & Contact Settings Bridge\nws = frappe.get_doc(\"Website Settings\", \"Website Settings\")\ndata.app_name = ws.app_name or \"আদর্শ সরকারি উচ্চ বিদ্যালয়\"\ndata.copyright = ws.copyright or \"© ২০২৬ আদর্শ সরকারি উচ্চ বিদ্যালয় • সর্বস্বত্ব সংরক্ষিত\"\ndata.top_bar_items = ws.top_bar_items or []\n\ncontact = frappe.get_doc(\"Contact Us Settings\", \"Contact Us Settings\")\ndata.contact = {\n    \"phone\": contact.phone or \"01712-345678\",\n    \"email\": contact.email_id or \"info@adarshaschool.edu.bd\",\n    \"address\": contact.address_line1 or \"[উপজেলা], [জেলা], বাংলাদেশ\"\n}\n",
+ "page_name": "page-76a35b7a",
+ "page_title": "শিক্ষক ও কর্মচারী | আদর্শ সরকারি উচ্চ বিদ্যালয়",
+ "preview": "/assets/builder/images/fallback.png",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "teachers-staff",
+ "staging": 0,
+ "template_group": "bd_school"
+}
