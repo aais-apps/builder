@@ -1,79 +1,233 @@
+API Key,এপিআই কী
 Accessibility,অ্যাক্সেসযোগ্যতা
 Active,সক্রিয়
 Add,যোগ করুন
 Add Property,বৈশিষ্ট্য যোগ করুন
+Admin,অ্যাডমিন
 Advanced,উন্নত
 Alert,সাবধান
+Align,সারিবদ্ধ করুন
 Alignment,সারিবদ্ধকরণ
 All,সকল
 Alt Text,বিকল্প লেখা
+"An icon file with .ico extension. Should be 16 x 16 px.<br>You can generate using <a href=""https://favicon-generator.org"" target=""_blank"">favicon-generator.org</a>",".ico এক্সটেনশনযুক্ত একটি আইকন ফাইল। আকার ১৬ x ১৬ পিক্সেল হওয়া উচিত।<br>আপনি <a href=""https://favicon-generator.org"" target=""_blank"">favicon-generator.org</a> ব্যবহার করে এটি তৈরি করতে পারেন"
+Analytics,অ্যানালিটিক্স
+Another AI request is still processing. Please wait.,অন্য একটি এআই অনুরোধ এখনও প্রক্রিয়াধীন রয়েছে। অনুগ্রহ করে অপেক্ষা করুন।
 App,app
+App {0} is not installed,{0} অ্যাপটি ইনস্টল করা নেই
+Appears next to the title in your browser tab. Recommended size is 32x32 px in PNG or ICO,আপনার ব্রাউজার ট্যাবের শিরোনামের পাশে প্রদর্শিত হয়। প্রস্তাবিত আকার PNG বা ICO-তে 32x32 পিক্সেল
+Append the original query string to the target URL,টার্গেট ইউআরএলে মূল কোয়েরি স্ট্রিং যুক্ত করুন
+Applies to all pages,সকল পৃষ্ঠায় প্রযোজ্য
 Apps,অ্যাপস
+Archived,আর্কাইভ করা হয়েছে
+Are you sure you want to cancel the invitation to {0}?,আপনি কি নিশ্চিত যে আপনি {0}-এর আমন্ত্রণ বাতিল করতে চান?
+Are you sure you want to delete component: {0}?,আপনি কি নিশ্চিত যে আপনি কম্পোনেন্ট: {0} মুছে ফেলতে চান?
+Are you sure you want to delete page: {0}?,আপনি কি নিশ্চিত যে আপনি পৃষ্ঠা: {0} মুছে ফেলতে চান?
+"Are you sure you want to delete the redirect from ""{0}"" to ""{1}""?","আপনি কি নিশ্চিত যে আপনি ""{0}"" থেকে ""{1}""-এ রিডাইরেক্ট মুছে ফেলতে চান?"
+"Are you sure you want to delete this folder? All the pages under this folder will be visible under ""All Pages""","আপনি কি নিশ্চিত যে আপনি এই ফোল্ডারটি মুছে ফেলতে চান? এই ফোল্ডারের অধীনে থাকা সমস্ত পৃষ্ঠা ""সকল পৃষ্ঠা""-র অধীনে প্রদর্শিত হবে"
+Are you sure you want to delete this redirect?,আপনি কি নিশ্চিত যে আপনি এই রিডাইরেক্টটি মুছে ফেলতে চান?
+Are you sure you want to delete {0} token?,আপনি কি নিশ্চিত যে আপনি {0} টোকেন মুছে ফেলতে চান?
+Are you sure you want to delete {0} tokens?,আপনি কি নিশ্চিত যে আপনি {0}টি টোকেন মুছে ফেলতে চান?
+Are you sure you want to exit without saving?,আপনি কি নিশ্চিত যে আপনি সংরক্ষণ না করেই প্রস্থান করতে চান?
+Are you sure you want to replace {0} with {1}?,আপনি কি নিশ্চিত যে আপনি {0}-কে {1} দিয়ে প্রতিস্থাপন করতে চান?
+Are you sure you want to reset?,আপনি কি নিশ্চিত যে আপনি রিসেট করতে চান?
+"Are you sure you want to unpublish ""{0}""? It will no longer be accessible on the website.","আপনি কি নিশ্চিত যে আপনি ""{0}"" অপ্রকাশিত করতে চান? এটি ওয়েবসাইটে আর অ্যাক্সেসযোগ্য থাকবে না।"
+Aria Label,Aria লেবেল
+Array,অ্যারে
+At least one field is required,কমপক্ষে একটি ফিল্ড আবশ্যক
+Attach Script,স্ক্রিপ্ট সংযুক্ত করুন
 Attributes,বৈশিষ্ট্যাবলী
+Authenticated Access,প্রমাণীকৃত অ্যাক্সেস
 Auto,স্বয়ংক্রিয়
+Auto convert images to WebP,স্বয়ংক্রিয়ভাবে ছবিগুলো WebP-তে রূপান্তর করুন
+Automatically follows server IP changes. Best choice for subdomains.,স্বয়ংক্রিয়ভাবে সার্ভার আইপি পরিবর্তন অনুসরণ করে। সাবডোমেনের জন্য সেরা পছন্দ।
+Autoplay,অটোপ্লে
 Back,পূর্ববর্তী
+Back to Dashboard,ড্যাশবোর্ডে ফিরে যান
+Back to Home,হোমে ফিরে যান
+Back to all templates,সকল টেমপ্লেটে ফিরে যান
 Background,পটভূমি
 Background Color,পটভূমির রং
+Background Only,শুধুমাত্র ব্যাকগ্রাউন্ড
+Base URL for an OpenAI-compatible gateway. Leave empty for OpenRouter.,OpenAI-সামঞ্জস্যপূর্ণ গেটওয়ের জন্য বেস ইউআরএল। OpenRouter-এর জন্য খালি রাখুন।
 Basic,প্রাথমিক
+Basic Forms,বেসিক ফর্ম
 Black,কালো
+Blank Page,খালি পৃষ্ঠা
 Block,ব্লক
+Block CSS,ব্লক সিএসএস
+Block Client Script,ব্লক ক্লায়েন্ট স্ক্রিপ্ট
+Block ID,ব্লক আইডি
+Block JavaScript,ব্লক জাভাস্ক্রিপ্ট
+Block Props,ব্লক প্রপ্স
+Block Template,ব্লক টেমপ্লেট
+Block Template Client Script,ব্লক টেমপ্লেট ক্লায়েন্ট স্ক্রিপ্ট
+Block Template Data Script,ব্লক টেমপ্লেট ডেটা স্ক্রিপ্ট
+Block template saved!,ব্লক টেমপ্লেট সংরক্ষিত হয়েছে!
 Blocks,ব্লকসমূহ
+Blur,ব্লার
+Body HTML,বডি এইচটিএমএল
 Bold,গাঢ়
 Boolean,বুলিয়ান
 Border,সীমানা / বর্ডার
 Border Color,বর্ডারের রং
 Border Radius,বর্ডার কোণা গোল
+Border Style,বর্ডার স্টাইল
 Border Width,প্রান্তের প্রস্থ
 Bottom,নীচে
 Bottom Center,নিচে মাঝে
 Bottom Left,নিচে বামে
 Bottom Right,ডান দিকের নিচে
 Box Shadow,বক্স শ্যাডো
+Browse all settings,সকল সেটিংস ব্রাউজ করুন
 Builder,বিল্ডার
+Builder AI Memory,বিল্ডার এআই মেমোরি
+Builder AI Message,বিল্ডার এআই বার্তা
+Builder AI Model,বিল্ডার এআই মডেল
+Builder AI Provider,বিল্ডার এআই প্রোভাইডার
+Builder AI Session,বিল্ডার এআই সেশন
+Builder Client Script,বিল্ডার ক্লায়েন্ট স্ক্রিপ্ট
+Builder Component,বিল্ডার কম্পোনেন্ট
+Builder Page,বিল্ডার পৃষ্ঠা
+Builder Page Click,বিল্ডার পৃষ্ঠা ক্লিক
+Builder Page Client Script,বিল্ডার পৃষ্ঠা ক্লায়েন্ট স্ক্রিপ্ট
+Builder Page Filter,বিল্ডার পৃষ্ঠা ফিল্টার
+Builder Project Folder,বিল্ডার প্রজেক্ট ফোল্ডার
+Builder Script,বিল্ডার স্ক্রিপ্ট
 Builder Settings,ওয়েবসাইট নির্মাতা সেটিংস
+Builder Snapshot,বিল্ডার স্ন্যাপশট
+Builder Token,বিল্ডার টোকেন
 Button,বাটন
 Button Link,বাটনের লিংক
 Button Text,বাটনের লেখা
+CNAME record points to wrong destination: {0},CNAME রেকর্ড ভুল গন্তব্যে নির্দেশ করছে: {0}
 CSS,CSS
+CSS Classes,CSS ক্লাসসমূহ
+CSV must contain 'Token Name' and 'Light Mode' columns,CSV-তে অবশ্যই 'Token Name' এবং 'Light Mode' কলাম থাকতে হবে
+CSV must have at least a header row and one data row,CSV-তে কমপক্ষে একটি হেডার সারি এবং একটি ডেটা সারি থাকতে হবে
+CTR,সিটিআর
 Cancel,বাতিল করুন
+Cancel invitation,আমন্ত্রণ বাতিল করুন
+Cannot delete root block,রুট ব্লক মুছে ফেলা যাবে না
 Canonical URL,ক্যানোনিকাল লিংক
 Canvas,ক্যানভাস
+Capabilities,সক্ষমতা
+Capitalize,ক্যাপিটালাইজ
 Category,বিভাগ
 Center,মধ্য
+Center Left,মধ্য বাম
+Center Right,মধ্য ডান
 Change,পরিবর্তন
 Changes saved,পরিবর্তন সংরক্ষিত হয়েছে
 Checked,পরীক্ষিত
 Choose Template,টেমপ্লেট নির্বাচন করুন
-Class,ক্লাস
+"Choose a template to get a head start, or start from scratch.","সহজেই শুরু করতে একটি টেমপ্লেট বেছে নিন, অথবা শুরু থেকেই তৈরি করুন।"
+Class,ক্লাস / শ্রেণি
+Clear Gradient,গ্রেডিয়েন্ট মুছে ফেলুন
+Click 'Add Token' to create your first one.,আপনার প্রথমটি তৈরি করতে 'Add Token'-এ ক্লিক করুন।
+Click-through Rate,ক্লিক-থ্রু রেট
+Clicks,ক্লিকসমূহ
 Client Script,ক্লায়েন্ট স্ক্রিপ্ট
+Client Scripts,ক্লায়েন্ট স্ক্রিপ্টসমূহ
+Clip Background to Text,ব্যাকগ্রাউন্ড টেক্সটের সাথে ক্লিপ করুন
 Close,বন্ধ করুন
+Close (Esc),বন্ধ করুন (Esc)
+Code,কোড
+Col Span,কলাম স্প্যান
 Collapse,সংকোচন
+Collapse All Layers,সব লেয়ার সংকুচিত করুন
+Collection,কালেকশন
 Color,রঙ
 Colors,রং
+Colors Only,শুধুমাত্র রঙ
 Column,কলাম
+Column Dense,কলাম ডেন্স
 Columns,কলামসমূহ
+Command Palette,কমান্ড প্যালেট
+Commands,কমান্ডসমূহ
 Component,উপাদান / কম্পোনেন্ট
+Component Client Script,কম্পোনেন্ট ক্লায়েন্ট স্ক্রিপ্ট
+Component Data Preview,কম্পোনেন্ট ডেটা প্রিভিউ
+Component Data Script,কম্পোনেন্ট ডেটা স্ক্রিপ্ট
+Component ID,কম্পোনেন্ট আইডি
 Component Name,কম্পোনেন্ট / উপাদান-এর নাম
+Component Props,কম্পোনেন্ট প্রপস
+Component draft is unavailable.,কম্পোনেন্টের ড্রাফট অনুপলব্ধ।
+Component is used in current page. You cannot delete it.,কম্পোনেন্টটি বর্তমান পৃষ্ঠায় ব্যবহৃত হচ্ছে। আপনি এটি মুছে ফেলতে পারবেন না।
+Component replaced successfully,কম্পোনেন্ট সফলভাবে প্রতিস্থাপন করা হয়েছে
+Component saved!,কম্পোনেন্ট সংরক্ষিত হয়েছে!
+Component synced in all the pages!,সব পৃষ্ঠায় কম্পোনেন্ট সিঙ্ক হয়েছে!
+Component updates,কম্পোনেন্ট আপডেট
+Component updates available,কম্পোনেন্ট আপডেট উপলব্ধ
+Component {0} was deleted and will not render,কম্পোনেন্ট {0} মুছে ফেলা হয়েছে এবং এটি রেন্ডার হবে না
 Components,উপাদানসমূহ
+Condition,শর্ত
+Configure global settings for this builder project.,এই বিল্ডার প্রকল্পের জন্য গ্লোবাল সেটিংস কনফিগার করুন।
+Configure page and global settings for this project.,এই প্রকল্পের জন্য পৃষ্ঠা ও গ্লোবাল সেটিংস কনফিগার করুন।
 Confirm,নিশ্চিত করুন
 Connected,সংযুক্ত
 Connection,সংযোগ
 Container,কন্টেইনার
+Container (c),কনটেইনার (c)
+Content,বিষয়বস্তু
+Context Window,কনটেক্সট উইন্ডো
 Controls,কন্ট্রোল
+Convert to WebP,WebP-তে রূপান্তর করুন
+Converting...,রূপান্তর করা হচ্ছে...
+Copied to clipboard,ক্লিপবোর্ডে অনুলিপি করা হয়েছে
 Copy,অনুলিপি
+Copy Block Styles,ব্লক স্টাইল কপি করুন
+Copy Page,পৃষ্ঠা কপি করুন
+Copy Style,স্টাইল কপি করুন
+Copy entire page?,সম্পূর্ণ পৃষ্ঠা কপি করবেন?
+Copy var(--{0}),var(--{0}) কপি করুন
+Could not add pages,পৃষ্ঠা যোগ করা যায়নি
+Could not create page from template,টেমপ্লেট থেকে পৃষ্ঠা তৈরি করা যায়নি
+Could not import any pages from this template group.,এই টেমপ্লেট গ্রুপ থেকে কোনো পৃষ্ঠা আমদানি করা যায়নি।
+Could not load the selected template. Please try again.,নির্বাচিত টেমপ্লেটটি লোড করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।
+Could not reach {0}: {1},{0}-এ পৌঁছানো যায়নি: {1}
+Could not resolve hostname: {0},হোস্টনেম সমাধান করা যায়নি: {0}
+Couldn't copy to clipboard,ক্লিপবোর্ডে কপি করা যায়নি
+Couldn't reach the server. Check the address is right and that it's running.,সার্ভারে পৌঁছানো যায়নি। ঠিকানা সঠিক কিনা এবং এটি চালু আছে কিনা তা পরীক্ষা করুন।
 Count,গণনা
 Create,তৈরি করুন
 Create Folder,ফোল্ডার তৈরি করুন
+Create New Folder,নতুন ফোল্ডার তৈরি করুন
+Create New Page,নতুন পৃষ্ঠা তৈরি করুন
 Create Page,পৃষ্ঠা তৈরি করুন
+Create a new page,একটি নতুন পৃষ্ঠা তৈরি করুন
+Create {0} new token and update {1} existing token?,{0}টি নতুন টোকেন তৈরি এবং {1}টি বিদ্যমান টোকেন আপডেট করবেন?
+Create {0} new token and update {1} existing tokens?,{0}টি নতুন টোকেন তৈরি এবং {1}টি বিদ্যমান টোকেন আপডেট করবেন?
+Create {0} new tokens and update {1} existing token?,{0}টি নতুন টোকেন তৈরি এবং {1}টি বিদ্যমান টোকেন আপডেট করবেন?
+Create {0} new tokens and update {1} existing tokens?,{0}টি নতুন টোকেন তৈরি এবং {1}টি বিদ্যমান টোকেন আপডেট করবেন?
+Created DocType {0} with {1} field(s),{1}টি ফিল্ড সহ DocType {0} তৈরি করা হয়েছে
+Created by {0},{0} তৈরি করেছেন
+Created {0} token,{0}টি টোকেন তৈরি করা হয়েছে
+Created {0} tokens,{0}টি টোকেন তৈরি করা হয়েছে
+Creating an editable copy...,সম্পাদনাযোগ্য অনুলিপি তৈরি করা হচ্ছে...
+Creating page from template...,টেমপ্লেট থেকে পৃষ্ঠা তৈরি করা হচ্ছে...
+Crosshair,ক্রসহায়ার
 Current Page,বর্তমান পৃষ্ঠা
+Current version,বর্তমান সংস্করণ
+Currently live,বর্তমানে লাইভ
 Cursor,কার্সার
 Custom,স্বনির্ধারিত
 Custom Code,কাস্টম কোড
+Custom Domains,কাস্টম ডোমেইন
+DNS is verified but SSL certificate provisioning failed. Please retry.,DNS যাচাই করা হয়েছে কিন্তু SSL সার্টিফিকেট প্রভিশনিং ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।
 Dark,অন্ধকার
+Dark Mode,ডার্ক মোড
+Dark Mode Color,ডার্ক মোড রঙ
+Dark Value,ডার্ক মান
 Dashboard,ড্যাশবোর্ড
+Dashed,ড্যাশড
 Data,ডাটা
+Data Key,ডেটা কি
+Data Preview,ডেটা প্রিভিউ
 Data Script,উপাত্ত স্ক্রিপ্ট
+Data script saved,ডেটা স্ক্রিপ্ট সংরক্ষিত হয়েছে
 Default,ডিফল্ট মান
+"Default HTML lang code (e.g., en, es, fr)","ডিফল্ট HTML lang কোড (যেমন: en, es, fr)"
 Default Items,ডিফল্ট আইটেমসমূহ
 Default Language,ডিফল্ট ভাষা
 Default Value,ডিফল্ট মান
@@ -82,180 +236,565 @@ Delete Block,ব্লক মুছে ফেলুন
 Delete Folder,ফোল্ডার মুছুন
 Delete Page,পৃষ্ঠা মুছুন
 Delete Variable,ভ্যারিয়েবল মুছুন
+Deleted {0} token,{0}টি টোকেন মুছে ফেলা হয়েছে
+Deleted {0} tokens,{0}টি টোকেন মুছে ফেলা হয়েছে
+Deleting page,পৃষ্ঠা মুছে ফেলা হচ্ছে
+Deleting redirect...,পুনর্নির্দেশ মুছে ফেলা হচ্ছে...
 Description,বিবরণ
+Design Tokens,ডিজাইন টোকেন
+Design tokens,ডিজাইন টোকেন
+Designer,ডিজাইনার
 Desktop,ডেস্কটপ
+Detach Component,কম্পোনেন্ট বিচ্ছিন্ন করুন
+"Detected automatically. 200,000 is assumed when unknown.","স্বয়ংক্রিয়ভাবে সনাক্ত করা হয়েছে। অজানা থাকলে ২০০,০০০ ধরে নেওয়া হয়।"
 Developer,ডেভেলাপার
+Developer Options,ডেভেলপার অপশন
 Developer Settings,ডেভেলাপার সেটিংস
 Dimension,ডাইমেনশন
+Dimensions,ডাইমেনশনসমূহ
 Direction,দিকবিন্যাস
+Disable Auto Dark Mode,অটো ডার্ক মোড নিষ্ক্রিয় করুন
+Disable Indexing,ইনডেক্সিং নিষ্ক্রিয় করুন
+Disable Redirect,পুনর্নির্দেশ নিষ্ক্রিয় করুন
+Disable automatic dark mode color scheme adjustments for all pages globally.,সার্বজনীনভাবে সমস্ত পৃষ্ঠার জন্য স্বয়ংক্রিয় ডার্ক মোড কালার স্কিম সমন্বয় নিষ্ক্রিয় করুন।
+Disabling redirect…,পুনর্নির্দেশ নিষ্ক্রিয় করা হচ্ছে…
 Discard Draft,খসড়া বাতিল করুন
 Display,প্রদর্শন
+Distribution,বণ্টন
+Do you want to copy the entire page including settings and scripts?,আপনি কি সেটিংস এবং স্ক্রিপ্ট সহ পুরো পৃষ্ঠাটি অনুলিপি করতে চান?
+"Do you want to upload the font ""{0}""?","আপনি কি ""{0}"" ফন্টটি আপলোড করতে চান?"
+DocType {0} already exists,DocType {0} ইতিমধ্যে বিদ্যমান
+DocType {0} does not exist,DocType {0} বিদ্যমান নেই
+Doctype name is required,DocType-এর নাম আবশ্যক
+Domain,ডোমেন
+Domain setup failed. Please retry or contact support.,ডোমেন সেটআপ ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন বা সহায়তায় যোগাযোগ করুন।
+Domain verification failed,ডোমেন যাচাইকরণ ব্যর্থ হয়েছে
+Domains,ডোমেনসমূহ
+Don't Execute,এক্সিকিউট করবেন না
 Done,সম্পন্ন
+Dotted,ডটেড
+Download sample,নমুনা ডাউনলোড করুন
 Draft,খসড়া
+Draft Blocks,খসড়া ব্লক
 Duplicate,প্রতিলিপি তৈরি করুন
+Duplicate Block,ব্লক ডুপ্লিকেট করুন
+Duplicate Page,পৃষ্ঠা ডুপ্লিকেট করুন
+Duplicate to edit,সম্পাদনা করতে ডুপ্লিকেট করুন
+Duplicating page,পৃষ্ঠা ডুপ্লিকেট করা হচ্ছে
+Dynamic Route,ডায়নামিক রুট
+Ease In,ইজ ইন
+Ease In Out,ইজ ইন আউট
+Ease Out,ইজ আউট
 Edit,সম্পাদনা করুন
+Edit Block Client Script,ব্লক ক্লায়েন্ট স্ক্রিপ্ট সম্পাদনা করুন
 Edit CSS,CSS সম্পাদনা করুন
 Edit Component,কম্পোনেন্ট / উপাদান সম্পাদনা করুন
 Edit HTML,HTML সম্পাদনা করুন
+Edit Redirect,পুনর্নির্দেশ সম্পাদনা করুন
+Edit Token,টোকেন সম্পাদনা করুন
+Edit template,টেমপ্লেট সম্পাদনা করুন
+Edited {0},{0} সম্পাদিত হয়েছে
+Editing is disabled while the site is being updated. Please try again in a few minutes.,সাইট আপডেট চলাকালীন সম্পাদনা নিষ্ক্রিয় থাকে। অনুগ্রহ করে কয়েক মিনিট পর আবার চেষ্টা করুন।
+Editor Config,এডিটর কনফিগারেশন
 Element,এলিমেন্ট
+Email addresses,ইমেল ঠিকানা
 Embed,এম্বেড
+Enable View Tracking,ভিউ ট্র্যাকিং সক্রিয় করুন
 Enabled,সক্রিয়
+Enabling redirect…,রিডাইরেক্ট সক্রিয় করা হচ্ছে…
 End,End
+Enter a model id to test with,পরীক্ষা করার জন্য একটি মডেল আইডি লিখুন
+Enter default value,ডিফল্ট মান লিখুন
+Enter false label display,False লেবেল প্রদর্শন লিখুন
+Enter image URL or upload one,ছবির URL লিখুন অথবা একটি আপলোড করুন
+Enter max number of items,আইটেমের সর্বোচ্চ সংখ্যা লিখুন
+Enter max value,সর্বোচ্চ মান লিখুন
+Enter min number of items,আইটেমের সর্বনিম্ন সংখ্যা লিখুন
+Enter min value,সর্বনিম্ন মান লিখুন
+Enter prop key,Prop কী লিখুন
+Enter prop label,Prop লেবেল লিখুন
+Enter true label display,True লেবেল প্রদর্শন লিখুন
+Enter value,মান লিখুন
+Enter your domain,আপনার ডোমেন লিখুন
+Error adding redirect,রিডাইরেক্ট যোগ করতে ত্রুটি হয়েছে
+Error deleting redirect,রিডাইরেক্ট মুছে ফেলতে ত্রুটি হয়েছে
+Error syncing component in all the pages!,সব পৃষ্ঠায় কম্পোনেন্ট সিঙ্ক করতে ত্রুটি হয়েছে!
+Error updating redirect,রিডাইরেক্ট আপডেট করতে ত্রুটি হয়েছে
+Exact path,সঠিক পাথ
+Example:,উদাহরণ:
+Examples,উদাহরণসমূহ
+Execute Block Client Scripts in Editor,এডিটরে ব্লক ক্লায়েন্ট স্ক্রিপ্ট সম্পাদন করুন
+Execute Block Scripts in Editor,এডিটরে ব্লক স্ক্রিপ্ট সম্পাদন করুন
 Expand,প্রসারণ
+Expand All Layers,সব লেয়ার প্রসারিত করুন
 Export Page,পৃষ্ঠা রপ্তানি করুন
+External URL,এক্সটার্নাল URL
 Extra Bold,অধিক গাঢ়
 Extra Light,অধিক হালকা
+FC API returned {0},FC API {0} ফেরত দিয়েছে
+Failed to convert image to WebP,ছবি WebP-তে রূপান্তর করতে ব্যর্থ হয়েছে
+Failed to copy,কপি করতে ব্যর্থ হয়েছে
+Failed to create token,টোকেন তৈরি করতে ব্যর্থ হয়েছে
+Failed to create {0} token,{0} টোকেন তৈরি করতে ব্যর্থ হয়েছে
+Failed to create {0} tokens,{0} টোকেন তৈরি করতে ব্যর্থ হয়েছে
+"Failed to delete ""{0}""","""{0}"" মুছে ফেলতে ব্যর্থ হয়েছে"
+Failed to pull image to local,ছবি লোকালে পুল করতে ব্যর্থ হয়েছে
+Failed to read CSV file,CSV ফাইল পড়তে ব্যর্থ হয়েছে
+Failed to rename,নাম পরিবর্তন করতে ব্যর্থ হয়েছে
+Failed to save component,কম্পোনেন্ট সংরক্ষণ করতে ব্যর্থ হয়েছে
+Failed to save script,স্ক্রিপ্ট সংরক্ষণ করতে ব্যর্থ হয়েছে
+Failed to update script order,স্ক্রিপ্টের ক্রম আপডেট করতে ব্যর্থ হয়েছে
+Failed to update token,টোকেন আপডেট করতে ব্যর্থ হয়েছে
+Failed to update {0} token,{0} টোকেন আপডেট করতে ব্যর্থ হয়েছে
+Failed to update {0} tokens,{0} টোকেন আপডেট করতে ব্যর্থ হয়েছে
+Failed to upload,আপলোড করতে ব্যর্থ হয়েছে
+Failed to upload font,ফন্ট আপলোড করতে ব্যর্থ হয়েছে
+False Label,False লেবেল
 Family,সংকলন
 Fast,দ্রুত
 Favicon,ফেভিকন
+Fill & Crop,ফিল ও ক্রপ
+Filter Builder Pages,বিল্ডার পেজ ফিল্টার করুন
+Filter by route,রুট অনুযায়ী ফিল্টার করুন
+Filter by title or route,শিরোনাম বা রুট অনুযায়ী ফিল্টার করুন
+Filter search results by:,অনুসন্ধানের ফলাফল ফিল্টার করুন:
 Filters,ফিল্টার
 Find,অনুসন্ধান
+Find & Replace,খুঁজুন ও প্রতিস্থাপন করুন
+Find Next (Enter),পরবর্তীটি খুঁজুন (Enter)
+Find Previous (Shift+Enter),পূর্ববর্তীটি খুঁজুন (Shift+Enter)
+Find...,খুঁজুন...
 Fit,আঁটাও
+Fit Content,কনটেন্ট অনুযায়ী ফিট করুন
+Fit Inside,ভেতরে ফিট করুন
 Fixed,নির্দিষ্ট
 Flex,ফ্লেক্স
+Focus Property Search,প্রপার্টি অনুসন্ধানে ফোকাস করুন
 Folder,ফোল্ডার
 Folder Name,ফোল্ডারের নাম
-Folders,ফোল্ডার
+Folders,ফোল্ডারসমূহ
 Font,ফন্ট
+"Font ""{0}"" already exists in the project","প্রকল্পে ""{0}"" ফন্টটি ইতিমধ্যে বিদ্যমান"
+"Font ""{0}"" uploaded successfully","""{0}"" ফন্টটি সফলভাবে আপলোড করা হয়েছে"
 Font Family,ফন্ট ফ্যামিলি
+Font File,ফন্ট ফাইল
 Font Name,ফন্টের নাম
 Font Size,ফন্টের আকার
 Font Weight,ফন্টের ঘনত্ব
 Fonts,ফন্ট
 Footer,ফুটার
+For Web Page,ওয়েব পেজের জন্য
+Form connected. Submissions save to '{0}'. View them in Desk: [/app/{1}](/app/{1}),ফর্ম সংযুক্ত হয়েছে। জমা দেওয়া তথ্য '{0}'-এ সংরক্ষিত হবে। ডেস্কে দেখুন: [/app/{1}](/app/{1})
+Form parts,ফর্মের অংশসমূহ
+Forward query parameters,কোয়েরি প্যারামিটার ফরোয়ার্ড করুন
+Found in: {0},যেখানে পাওয়া গেছে: {0}
+Founder / Business owner,প্রতিষ্ঠাতা / ব্যবসার মালিক
+Frappe / ERPNext,Frappe / ERPNext
+Frappe Builder,Frappe Builder
+Frappe Builder - Get Started,Frappe Builder - শুরু করুন
 Free,বিনামূল্যে
+Friend / colleague,বন্ধু / সহকর্মী
 Gap,GAP
 General,সাধারণ
+Get Started,শুরু করুন
+Give this provider a name,এই প্রোভাইডারের একটি নাম দিন
 Global,সার্বজনীন
+Global Builder Settings,গ্লোবাল বিল্ডার সেটিংস
 Global Code,সার্বজনীন কোড
+Global Component,গ্লোবাল কম্পোনেন্ট
+Global script that will be loaded with every page built with Frappe Builder,গ্লোবাল স্ক্রিপ্ট যা Frappe Builder দিয়ে তৈরি প্রতিটি পেজের সাথে লোড হবে
+Global style that will be loaded with every page built with Frappe Builder,গ্লোবাল স্টাইল যা Frappe Builder দিয়ে তৈরি প্রতিটি পেজের সাথে লোড হবে
+Go to Dashboard,ড্যাশবোর্ডে যান
 Gradient,গ্র্যাডিয়েন্ট
 Grid,গ্রিড
 Grid Type,গ্রিড-এর ধরন
 Group,গ্রুপ
+Group name for this radio button. Radio buttons with the same name are grouped together.,এই রেডিও বাটনের গ্রুপের নাম। একই নামের রেডিও বাটনগুলো একত্রে গ্রুপ করা হয়।
+Grow,প্রসারিত করুন
 HTML,HTML
+HTML Attributes,HTML অ্যাট্রিবিউট
+HTML Options,HTML অপশন
+HTTP {0},HTTP {0}
+HTTP {0} · forwards query parameters,HTTP {0} · কোয়েরি প্যারামিটার ফরোয়ার্ড করে
+Head HTML,Head HTML
 Header,হেডার
 Heading,শিরোনাম
 Height,উচ্চতা
 Help,সহায়তা
 Hidden,আড়াল করা
 Hide,লুকান
+Hide Left Panel,বাম প্যানেল লুকান
+Hide Replace,প্রতিস্থাপন লুকান
+Hide Right Panel,ডান প্যানেল লুকান
 Home,প্রথম পাতা
 Home Page,মূল পাতা
+Home page,হোম পেজ
+Home page set to /{0},হোম পেজ /{0} হিসেবে সেট করা হয়েছে
 Homepage,মূলপাতা
+Homepage set successfully,হোমপেজ সফলভাবে সেট করা হয়েছে
 Horizontal,অনুভূমিক
+How did you hear about Builder?,বিল্ডার সম্পর্কে আপনি কীভাবে জানতে পেরেছেন?
+I heard from the community,আমি কমিউনিটি থেকে জেনেছি
+I'm a student building my first site,"আমি একজন শিক্ষার্থী, আমার প্রথম সাইট তৈরি করছি"
 Image,ছবি
+Image (i),ছবি (i)
+Image Fit,ছবির ফিট
+Image Options,ছবির অপশন
 Image URL,ছবির লিংক
+Image converted to WebP,ছবিটি WebP ফরম্যাটে রূপান্তরিত হয়েছে
+Image is too large. Please use an image smaller than 5 MB.,ছবিটি অনেক বড়। অনুগ্রহ করে ৫ MB-এর চেয়ে ছোট ছবি ব্যবহার করুন।
+Image pulled to local,ছবি লোকালে নিয়ে আসা হয়েছে
 Import Template,টেমপ্লেট আমদানি করুন
+Input Options,ইনপুট অপশনসমূহ
 Insert,Insert
 Insert Link,লিংক যুক্ত করুন
+Inset Shadow,ইনসেট শ্যাডো
+Internal flag: set once the persona onboarding survey has been shown. Site-wide (Builder Settings is a Single) — acceptable proxy for per-user on single-user trial sites.,অভ্যন্তরীণ ফ্ল্যাগ: পার্সোনা অনবোর্ডিং জরিপটি দেখানো হলে সেট করা হয়। সাইট-ব্যাপী (বিল্ডার সেটিংস একটি সিঙ্গেল) — একক-ব্যবহারকারী ট্রায়াল সাইটগুলোতে প্রতি-ব্যবহারকারীর জন্য গ্রহণযোগ্য প্রক্সি।
+Internal tool / dashboard,অভ্যন্তরীণ টুল / ড্যাশবোর্ড
+Invalid URL: missing hostname.,অকার্যকর URL: হোস্টনেম অনুপস্থিত।
+Invalid image data: must be a base64-encoded data URL,অকার্যকর ছবির ডেটা: অবশ্যই base64-এনকোডেড ডেটা URL হতে হবে
+Invalid image data: must be a base64-encoded image data URL,অকার্যকর ছবির ডেটা: অবশ্যই base64-এনকোডেড ছবির ডেটা URL হতে হবে
+Invalid option configuration!,অকার্যকর অপশন কনফিগারেশন!
+Invitation resent to {0},{0}-কে পুনরায় আমন্ত্রণপত্র পাঠানো হয়েছে
+Invitation sent to {0},{0}-কে আমন্ত্রণপত্র পাঠানো হয়েছে
+Invite,আমন্ত্রণ জানান
+Invited {0},{0}-কে আমন্ত্রণ জানানো হয়েছে
+Invited {0} by {1},{1} দ্বারা {0}-কে আমন্ত্রণ জানানো হয়েছে
 Is Required,আবশ্যকীয় কিনা
 Is Running,চলছে কিনা
 Is Standard,মান কিনা
-Items,আইটেমসমূহ
+Is Template,টেমপ্লেট
+Is Unique,অনন্য কিনা
+Item Width,আইটেমের প্রস্থ
+Items,পণ্যসমূহ
 JavaScript,Javascript
+"Just curious, it helps us know what's working.","শুধু জানার আগ্রহ থেকে, এটি কী সঠিকভাবে কাজ করছে তা বুঝতে আমাদের সাহায্য করে।"
 Justify,সমপ্রান্তিক
 Key,কি
 Keyboard Shortcuts,কি-বোর্ড শর্ট-কাট
 Label,লেবেল
+Landing Page,ল্যান্ডিং পেজ
 Language,ভাষা
+"Language code for HTML (e.g., en, es, fr, de). Uses default if unset.","HTML-এর জন্য ভাষা কোড (যেমন: en, es, fr, de)। সেট না করা থাকলে ডিফল্ট মান ব্যবহার করা হবে।"
 Large,বড়
+Last 30 Days,গত ৩০ দিন
+Last 7 Days,গত ৭ দিন
 Last Created,সর্বশেষ তৈরি
+Last Interaction On,সর্বশেষ মিথস্ক্রিয়া
 Last Modified,সর্বশেষ পরিবর্তিত
+Last Task Type,সর্বশেষ টাস্কের ধরন
+Layer Icon,লেয়ার আইকন
+Layer {0},লেয়ার {0}
+Layers,স্তরসমূহ
 Layout,বিন্যাস
+Leave empty to fall back to the OpenRouter key in Builder Settings.,বিল্ডার সেটিংসের OpenRouter কি (key)-তে ফিরে যেতে ফাঁকা রাখুন।
+Leave off unless the model accepts image input. Sending an image to a text-only model fails the whole turn.,মডেলটি ছবির ইনপুট গ্রহণ না করলে এটি বন্ধ রাখুন। কেবল-টেক্সট মডেলে ছবি পাঠালে সম্পূর্ণ প্রক্রিয়াটি ব্যর্থ হবে।
 Left,বাঁদিকে
+Letter,লেটার
 Light,হালকা
+Light Mode Color,লাইট মোড রঙ
+Limited access,সীমিত অ্যাক্সেস
+Limits the pages where the component is replaced,যেসব পেজে উপাদানটি প্রতিস্থাপিত হবে তা সীমাবদ্ধ করে
 Linear,রৈখিক
 Link,লিংক
+Link To,লিংক টু
 List,তালিকা
+LiteLLM Provider,LiteLLM প্রদানকারী
 Live,সরাসরি
+Load More,আরও লোড করুন
+Load {0} more,আরও {0}টি লোড করুন
+Loading domains…,ডোমেন লোড হচ্ছে…
+Loading pages…,পেজ লোড হচ্ছে…
 Loading...,লোড করা হচ্ছে...
 Loop,পরিহারের উপায়
 Lowercase,লোয়ারকেস
+Make this page a standard page that can be exported to an app,এই পেজটিকে একটি স্ট্যান্ডার্ড পেজ করুন যা একটি অ্যাপে এক্সপোর্ট করা যেতে পারে
+Map route parameters into form variables. Example <code>/profile/:user</code>,রুট প্যারামিটারগুলোকে ফর্ম ভেরিয়েবলে ম্যাপ করুন। উদাহরণ: <code>/profile/:user</code>
 Margin,মার্জিন
+Marketer,মার্কেটার
+Marketing / landing site,মার্কেটিং / ল্যান্ডিং সাইট
+Match Case,কেস মেলান
+Match Whole Word,সম্পূর্ণ শব্দ মেলান
+Max Height,সর্বোচ্চ উচ্চতা
 Max Width,সর্বোচ্চ প্রস্থ
+Max. Items,সর্বোচ্চ আইটেম
+Max. Value,সর্বোচ্চ মান
 Media,মিডিয়া
 Medium,মাঝারি
 Message Type,বার্তার ধরন
 Meta,Meta
 Meta Description,মেটা বিবরণ
 Meta Image,মেটা ছবি
+Meta Tags,মেটা ট্যাগ
 Meta Title,মেটা শিরোনাম
+Metadata JSON,মেটাডাটা JSON
 Min Height,সর্বনিম্ন উচ্চতা
+Min Width,সর্বনিম্ন প্রস্থ
+Min. Items,সর্বনিম্ন আইটেম
+Min. Value,সর্বনিম্ন মান
 Mobile,মোবাইল নম্বর
+Model ID,মডেল আইডি
+Model ID is required,মডেল আইডি আবশ্যক
+More Styles,আরও স্টাইল
 Move,স্থানান্তরণ
 Move Down,নিচে নিন
+Move To Folder,ফোল্ডারে সরান
 Move Up,উপরে নিন
+"Moved {0} token to ""{1}""","{0}টি টোকেন ""{1}""-এ সরানো হয়েছে"
+"Moved {0} tokens to ""{1}""","{0}টি টোকেন ""{1}""-এ সরানো হয়েছে"
 Muted,নিঃশব্দ
+My Page,আমার পেজ
 Name,নাম
 Name already exists,উল্লিখিত নাম বর্তমানে উপস্থিত
+Name this version (optional),এই সংস্করণের নাম দিন (ঐচ্ছিক)
+"Namespace for this provider's model names, e.g. <code>openrouter</code> gives <code>openrouter/anthropic/claude-sonnet-5</code>. Derived from the name when left empty.","এই প্রোভাইডারের মডেল নামের জন্য নেমস্পেস, যেমন <code>openrouter</code> প্রদান করে <code>openrouter/anthropic/claude-sonnet-5</code>। ফাঁকা রাখলে নাম থেকে গ্রহণ করা হবে।"
+Navigate,ন্যাভিগেট করুন
 Navigation,নেভিগেশন
 New,নতুন
 New Component,নতুন কম্পোনেন্ট / উপাদান
 New Page,নতুন পৃষ্ঠা
+New Script,নতুন স্ক্রিপ্ট
 New Tab,নতুন ট্যাব
+New Token,নতুন টোকেন
 New folder,নতুন ফোল্ডার
 New page,নতুন পৃষ্ঠা
+New token created,নতুন টোকেন তৈরি করা হয়েছে
 Next,পরবর্তী
 No,না
+No DNS record found for this domain.,এই ডোমেইনের জন্য কোনো DNS রেকর্ড পাওয়া যায়নি।
+No Default Value,কোনো ডিফল্ট মান নেই
+No Value Set,কোনো মান সেট করা নেই
+No Wrap,র‍্যাপ হবে না
+No color tokens yet,এখনো কোনো রঙের টোকেন নেই
+No commands found,কোনো কমান্ড পাওয়া যায়নি
+No components saved,কোনো কম্পোনেন্ট সংরক্ষিত নেই
+No custom domains added yet.,এখনো কোনো কাস্টম ডোমেইন যোগ করা হয়নি।
+No dimension tokens yet,এখনো কোনো ডাইমেনশন টোকেন নেই
+No dynamic values found. Please add using,কোনো ডাইনামিক মান পাওয়া যায়নি। অনুগ্রহ করে এটি ব্যবহার করে যোগ করুন
+No folders yet,এখনো কোনো ফোল্ডার নেই
+No font tokens yet,এখনো কোনো ফন্ট টোকেন নেই
+No matching pages found.,মিল রয়েছে এমন কোনো পেজ পাওয়া যায়নি।
+No matching properties,মিল রয়েছে এমন কোনো প্রোপার্টি নেই
+"No members match ""{0}""","""{0}""-এর সাথে মেলে এমন কোনো সদস্য নেই"
+No members yet. Invite someone to give them access to Builder.,এখনো কোনো সদস্য নেই। বিল্ডারে অ্যাক্সেস দিতে কাউকে আমন্ত্রণ জানান।
 No pages created yet,এখনও কোনো পৃষ্ঠা তৈরি করা হয়নি
+No pages found in this template group.,এই টেমপ্লেট গ্রুপে কোনো পেজ পাওয়া যায়নি।
+No pages found.,কোনো পৃষ্ঠা পাওয়া যায়নি।
+No pending action on this message,এই বার্তায় কোনো পেন্ডিং অ্যাকশন নেই
+No permission to preview this page,এই পেজটি প্রিভিউ করার অনুমতি নেই
+"No redirects match ""{0}""","""{0}""-এর সাথে মেলে এমন কোনো রিডাইরেক্ট নেই"
+No replacements made,কোনো প্রতিস্থাপন করা হয়নি
+"No results for ""{0}""","""{0}""-এর জন্য কোনো ফলাফল পাওয়া যায়নি"
 No results found,কোন ফলাফল পাওয়া যায়নি
+"No saved versions yet. A version is captured every time you publish, or when you save one manually.",এখনো কোনো সংরক্ষিত সংস্করণ নেই। প্রতিবার প্রকাশের সময় বা ম্যানুয়ালি সংরক্ষণ করলে একটি সংস্করণ ক্যাপচার করা হয়।
+No tokens found,কোনো টোকেন পাওয়া যায়নি
+"No tokens match ""{0}"". Try a different search term.","""{0}""-এর সাথে মেলে এমন কোনো টোকেন নেই। অন্য কোনো শব্দ দিয়ে অনুসন্ধান করুন।"
+No views in this period,এই সময়সীমায় কোনো ভিউ নেই
+"No, just blocks","না, কেবল ব্লক"
 None,শূণ্য
 Normal,স্বাভাবিক
+Not Allowed,অনুমোদিত নয়
+Not Found,পাওয়া যায়নি
+Not used in any page,কোনো পেজে ব্যবহৃত হয়নি
 Note:,নোট:
+Note: Block Scripts are executed in a sandboxed environment. This may have limitations and might not perfectly replicate live site behavior. Executing untrusted scripts could be unsafe.,দ্রষ্টব্য: ব্লক স্ক্রিপ্টগুলি একটি স্যান্ডবক্সড পরিবেশে নির্বাহ করা হয়। এর কিছু সীমাবদ্ধতা থাকতে পারে এবং এটি লাইভ সাইটের আচরণের হুবহু অনুরূপ নাও হতে পারে। অনির্ভরযোগ্য স্ক্রিপ্ট নির্বাহ করা ঝুঁকিপূর্ণ হতে পারে।
 Number,সংখ্যা
 Object,অবজেক্ট
 Ok,ঠিক আছে
+On Active,অ্যাক্টিভ অবস্থায়
+On Focus,ফোকাস অবস্থায়
+On Hover,হোভার অবস্থায়
+Online store / E-commerce,অনলাইন স্টোর / ই-কমার্স
+Only HTTP/HTTPS URLs are allowed for external images.,বাহ্যিক ছবির জন্য শুধুমাত্র HTTP/HTTPS URL অনুমোদিত।
+Only allow logged-in users to view this page.,শুধুমাত্র লগইন করা ব্যবহারকারীদের এই পৃষ্ঠাটি দেখার অনুমতি দিন।
+Only logged-in users can access this page,শুধুমাত্র লগইন করা ব্যবহারকারীরা এই পৃষ্ঠায় প্রবেশ করতে পারবেন
 Opacity,অস্বচ্ছতা
+Opacity Only,শুধুমাত্র অপাসিটি
+Open <strong>Frappe Builder</strong>,<strong>Frappe Builder</strong> খুলুন
+Open Builder,বিল্ডার খুলুন
+Open Code Tab,কোড ট্যাব খুলুন
+Open Command Palette,কমান্ড প্যালেট খুলুন
 Open Preview,প্রাকদর্শন দেখুন
+Open in Builder,বিল্ডারে খুলুন
 Open in New Tab,নতুন ট্যাবে খোলা
+Opens in,যেখানে খুলবে
+Optional. Set this to specify a preferred version of this page for search engines.,ঐচ্ছিক। সার্চ ইঞ্জিনের জন্য এই পৃষ্ঠার একটি পছন্দসই সংস্করণ নির্ধারণ করতে এটি সেট করুন।
 Options,বিকল্প
+Order,অর্ডার
 Original Size,আসল আকার
-Other,অন্য
+Other,অন্যান্য
+Outset Shadow,আউটসেট শ্যাডো
+Overflow X,ওভারফ্লো X
+Overflow Y,ওভারফ্লো Y
 Overview,সারসংক্ষেপ
 Padding,প্যাডিং
 Page,পৃষ্ঠা
+Page Analytics,পৃষ্ঠা অ্যানালিটিক্স
+Page Client Script,পৃষ্ঠা ক্লায়েন্ট স্ক্রিপ্ট
 Page Code,পৃষ্ঠা কোড
+Page Copied,পৃষ্ঠা অনুলিপি করা হয়েছে
+Page Data Preview,পৃষ্ঠার ডেটা প্রিভিউ
+Page Data Script,পৃষ্ঠা ডেটা স্ক্রিপ্ট
 Page Name,পৃষ্ঠা-এর নাম
+Page Preview,পৃষ্ঠার প্রিভিউ
+Page Route,পেজ রুট
 Page Settings,পৃষ্ঠার সেটিংস
 Page Title,পৃষ্ঠার শিরোনাম
+Page Tree,পৃষ্ঠা ট্রি
+Page created,পৃষ্ঠা তৈরি হয়েছে
+Page deleted,পৃষ্ঠা মুছে ফেলা হয়েছে
+Page deletion failed,পৃষ্ঠা মুছে ফেলা ব্যর্থ হয়েছে
+Page duplicated,পৃষ্ঠা প্রতিলিপি করা হয়েছে
+Page not found,পৃষ্ঠাটি পাওয়া যায়নি
+Page unpublished,পৃষ্ঠা অপ্রকাশিত করা হয়েছে
 Pages,পৃষ্ঠাসমূহ
 Paragraph,অনুচ্ছেদ
 Paste,পেস্ট করুন
+Paste Style,স্টাইল পেস্ট করুন
+Pasting a page!,পৃষ্ঠা পেস্ট করা হচ্ছে!
+Pasting...,পেস্ট করা হচ্ছে...
 Path,পথ
+Pending Invites ({0}),অপেক্ষমাণ আমন্ত্রণসমূহ ({0})
+Pending action not found,অপেক্ষমাণ অ্যাকশন খুঁজে পাওয়া যায়নি
+Persona Survey Done,পারসোনা জরিপ সম্পন্ন হয়েছে
+Pick a starting point,একটি শুরুর বিন্দু বেছে নিন
+"Pick a wider date range, or share your page to start collecting data.","একটি বৃহত্তর তারিখের সীমা বেছে নিন, অথবা ডেটা সংগ্রহ শুরু করতে আপনার পৃষ্ঠাটি শেয়ার করুন।"
+Pick at least one model,অন্তত একটি মডেল নির্বাচন করুন
+Pick color,রং নির্বাচন করুন
+Placeholder,প্লেসহোল্ডার
+Placement,অবস্থান
+"Please configure an OpenRouter API key in Settings → AI, or an API key on the model's provider",অনুগ্রহ করে সেটিংস → এআই-এ একটি OpenRouter API কী অথবা মডেল প্রদানকারীর একটি API কী কনফিগার করুন
+Please log in to view this page.,এই পৃষ্ঠাটি দেখতে অনুগ্রহ করে লগ ইন করুন।
+Please select a collection,অনুগ্রহ করে একটি কালেকশন নির্বাচন করুন
+Please select an app for this standard page,অনুগ্রহ করে এই স্ট্যান্ডার্ড পৃষ্ঠার জন্য একটি অ্যাপ নির্বাচন করুন
+Please set an OpenRouter API key,অনুগ্রহ করে একটি OpenRouter API কী সেট করুন
+Please switch to a larger screen to edit,সম্পাদনা করতে অনুগ্রহ করে একটি বড় স্ক্রিনে স্যুইচ করুন
+Pointer,পয়েন্টার
+Points your root domain directly to the server. Use @ as the host name.,আপনার রুট ডোমেনটি সরাসরি সার্ভারে নির্দেশ করে। হোস্ট নেম হিসেবে @ ব্যবহার করুন।
+Portfolio / personal site,পোর্টফোলিও / ব্যক্তিগত সাইট
 Position,অবস্থান
+Poster,পোস্টার
+Prevent Click Emulation,ক্লিক ইমুলেশন প্রতিরোধ করুন
+Prevent search engines from indexing this page,সার্চ ইঞ্জিনগুলোকে এই পৃষ্ঠা ইনডেক্স করা থেকে বিরত রাখুন
+Prevent the site from automatically switching to dark mode,সাইটটি স্বয়ংক্রিয়ভাবে ডার্ক মোডে পরিবর্তন হওয়া প্রতিরোধ করুন
+Prevents click events from being emulated in the editor for blocks with Block Client Scripts.,ব্লক ক্লায়েন্ট স্ক্রিপ্ট থাকা ব্লকগুলোর জন্য এডিটরে ক্লিক ইভেন্ট ইমুলেট করা প্রতিরোধ করে।
 Preview,প্রিভিউ
+Preview Height,প্রিভিউ উচ্চতা
+Preview Image,ছবির প্রাকদর্শন
+Preview Image is mandatory,প্রিভিউ ছবি আবশ্যক
+Preview Page,পৃষ্ঠা প্রিভিউ করুন
+Preview Width,প্রিভিউ প্রস্থ
 Primary,প্রাথমিক
 Primary Button,প্রধান বাটন
+Project Folder,প্রজেক্ট ফোল্ডার
 Properties,বৈশিষ্ট্য
 Property,বৈশিষ্ট্য
+Protected Page,সুরক্ষিত পৃষ্ঠা
 Provider,পরিসেবা উপলব্ধকারী
 Provider Name,পরিসেবা উপলব্ধকারী-এর নাম
+Public URL,পাবলিক ইউআরএল
 Publish,প্রকাশ করুন
 Publish Changes,পরিবর্তন প্রকাশ করুন
+Publish Page,পৃষ্ঠা প্রকাশ করুন
 Published,প্রকাশিত
+Published At,প্রকাশের সময়
+Published version,প্রকাশিত সংস্করণ
+Pulling...,পুল করা হচ্ছে...
+Radial,রেডিয়াল
 Radius,ব্যাসার্ধ
 Read Only,শুধুমাত্র পড়ার জন্য
+Read-only preview · Use <b>Restore</b> to load this version.,রিড-ওনলি প্রিভিউ · এই সংস্করণটি লোড করতে <b>পুনরুদ্ধার</b> ব্যবহার করুন।
 Recent,সাম্প্রতিক
 Recently used,সম্প্রতি ব্যবহৃত
+Redirect added,পুনর্নির্দেশ যোগ করা হয়েছে
+Redirect deleted,পুনর্নির্দেশ মুছে ফেলা হয়েছে
+Redirect disabled for {0},{0}-এর জন্য পুনর্নির্দেশ নিষ্ক্রিয় করা হয়েছে
+Redirect enabled for {0},{0}-এর জন্য পুনর্নির্দেশ সক্রিয় করা হয়েছে
+Redirect status,পুনর্নির্দেশের স্থিতি
+Redirect to Primary,প্রাইমারিতে পুনর্নির্দেশ করুন
+Redirect updated,পুনর্নির্দেশ আপডেট করা হয়েছে
+Redirects,রিডাইরেক্টসমূহ
+Redirects to primary,প্রাইমারিতে পুনর্নির্দেশ করে
 Redo,পুনরাবৃত্তি
+Reference Doctype,রেফারেন্স ডকটাইপ
+Reference Name,রেফারেন্স নাম
+Regex capture,রেজেক্স ক্যাপচার
 Regular,সাধারণ
 Remove,মুছে ফেলুন
+Remove Collection,কালেকশন সরিয়ে ফেলুন
+Remove Domain,ডোমেন সরিয়ে ফেলুন
+Remove Script,স্ক্রিপ্ট সরিয়ে ফেলুন
+Remove Stop,স্টপ সরিয়ে ফেলুন
+Removing {0}…,{0} সরানো হচ্ছে…
 Rename,নতুন নামকরণ
 Repeat,পুনরাবৃত্তি
+Repeat Block,রিপিট ব্লক
 Replace,প্রতিস্থাপ
+Replace All,সব প্রতিস্থাপন করুন
+Replace All ({0} matches),সব প্রতিস্থাপন করুন ({0}টি মিল)
+Replace Component,কম্পোনেন্ট প্রতিস্থাপন করুন
+Replace Next,পরবর্তীটি প্রতিস্থাপন করুন
 Replace With,সাথে প্রতিস্থাপন করুন
+Replace with...,দিয়ে প্রতিস্থাপন করুন...
+Replaced in {0},{0}-এ প্রতিস্থাপিত হয়েছে
+Replaced in {0} block,{0}টি ব্লকে প্রতিস্থাপিত হয়েছে
+Replaced in {0} blocks,{0}টি ব্লকে প্রতিস্থাপিত হয়েছে
+Requests to private or internal addresses are not allowed.,ব্যক্তিগত বা অভ্যন্তরীণ ঠিকানায় অনুরোধ পাঠানোর অনুমতি নেই।
+Resend,পুনরায় পাঠান
+Reset Changes,পরিবর্তনগুলো রিসেট করুন
+Reset Component,কম্পোনেন্ট রিসেট করুন
+Reset Overrides,ওভাররাইডগুলো রিসেট করুন
+Reset changes in child blocks as well?,চাইল্ড ব্লকগুলোর পরিবর্তনও কি রিসেট করবেন?
 Responsive,রেসপনসিভ
+Restore this version as your draft,এই সংস্করণটি ড্রাফট হিসেবে পুনরুদ্ধার করুন
+Restrict Click Handlers,ক্লিক হ্যান্ডলার সীমাবদ্ধ করুন
+Restricted,সীমাবদ্ধ
 Retry,আবার চেষ্টা করো
+Retrying {0},{0} পুনরায় চেষ্টা করা হচ্ছে
+Retrying {0}…,{0} পুনরায় চেষ্টা করা হচ্ছে…
 Right,ডানদিকে
+Robots,রোবটস
+Robots.txt,Robots.txt
+Robots.txt Guide,Robots.txt নির্দেশিকা
 Role,ভূমিকা (Role)
+Rotation,ঘূর্ণন
 Route,রুট / লিংক
+Route Prefix,রুট প্রিফিক্স
+Route Tree,রুট ট্রি
 Row,সারি
+Row Dense,ঘন সারি
+Row Height,সারির উচ্চতা
+Row Span,রো স্প্যান
 Rows,সারিসমূহ
 SEO,সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)
+SVG with inlined image in it is not supported. Please paste it as PNG instead.,ইনলাইনড ইমেজযুক্ত SVG সমর্থিত নয়। অনুগ্রহ করে এর পরিবর্তে PNG হিসেবে পেস্ট করুন।
+Same Tab,একই ট্যাব
+Sample CSV downloaded,নমুনা CSV ডাউনলোড হয়েছে
 Save,সংরক্ষণ করুন
+Save Component,কম্পোনেন্ট সংরক্ষণ করুন
+Save Template,টেমপ্লেট সংরক্ষণ করুন
+Save as Block Template,ব্লক টেমপ্লেট হিসেবে সংরক্ষণ করুন
+Save as Token,টোকেন হিসেবে সংরক্ষণ করুন
+Save current version,বর্তমান সংস্করণ সংরক্ষণ করুন
+Save the page before starting a chat session,চ্যাট সেশন শুরু করার আগে পৃষ্ঠাটি সংরক্ষণ করুন
 Saved,সংরক্ষিত হয়েছে
+Saving template,টেমপ্লেট সংরক্ষণ করা হচ্ছে
+Screen too small,স্ক্রিন খুব ছোট
+Script,স্ক্রিপ্ট
+Script Public URL,স্ক্রিপ্টের পাবলিক URL
+Script Type,স্ক্রিপ্টের ধরন
+Script cannot be empty,স্ক্রিপ্ট খালি রাখা যাবে না
+Script order updated,স্ক্রিপ্টের ক্রম আপডেট করা হয়েছে
+Script saved successfully,স্ক্রিপ্ট সফলভাবে সংরক্ষিত হয়েছে
+Scripting,স্ক্রিপ্টিং
 Scroll,উপর-নীচ করো
 Search,অনুসন্ধান
+Search (Google),অনুসন্ধান (Google)
+Search Block,ব্লক অনুসন্ধান করুন
+Search Blocks,ব্লক অনুসন্ধান করুন
+Search Page,পৃষ্ঠা অনুসন্ধান করুন
+Search blocks...,ব্লক অনুসন্ধান করুন...
+Search...,অনুসন্ধান করুন...
 Searching...,অনুসন্ধান করা হচ্ছে...
 Secondary Button,সহকারী বাটন
 Section,সেকশন
@@ -266,7 +805,7 @@ Select Mode,মোড (Mode) নির্বাচন করুন
 Select Template,টেমপ্লেট নির্বাচন করুন
 Select default color,ডিফল্ট রঙ নির্বাচন করুন
 Semi Bold,আংশিক গাঢ়
-Session,সেশন
+Session,শিক্ষাবর্ষ
 Settings,সেটিংস
 Shadow,ছায়া
 Shadow Color,ছায়া রং
@@ -278,77 +817,253 @@ Size,মাপ
 Slow,মন্থর
 Small,ছোট
 Snapshot Type,স্ন্যাপশট-এর ধরন
+Social media,সামাজিক যোগাযোগ মাধ্যম
 Solid,গাঢ়
+Something went wrong,কিছু সমস্যা হয়েছে
 Sort,সাজান
 Sort Order,সাজানোর ধারা
 Source,সোর্স
+Space Around,চারপাশে ফাঁকা জায়গা
+Space Between,মাঝখানে ফাঁকা জায়গা
+Space Evenly,সমান দূরত্বে ফাঁকা জায়গা
 Spacing,স্পেস স্থাপন
+"Specify rules to control how search engines interact with your site. For more details, visit {0}.","সার্চ ইঞ্জিন কীভাবে আপনার সাইটের সাথে ইন্টারঅ্যাক্ট করবে তা নিয়ন্ত্রণ করতে নিয়মাবলী নির্দিষ্ট করুন। আরও বিস্তারিত জানতে, {0} দেখুন।"
 Speed,গতি
+Spread,বিস্তার
+Stack,স্ট্যাক
+Standard Page,স্ট্যান্ডার্ড পৃষ্ঠা
+Standard folders cannot be deleted. Please enable developer mode to delete standard folders.,স্ট্যান্ডার্ড ফোল্ডার মুছে ফেলা যাবে না। স্ট্যান্ডার্ড ফোল্ডার মুছতে অনুগ্রহ করে ডেভেলপার মোড সক্রিয় করুন।
+Standard folders cannot be modified. Please enable developer mode to edit standard folders.,স্ট্যান্ডার্ড ফোল্ডার পরিবর্তন করা যাবে না। স্ট্যান্ডার্ড ফোল্ডার সম্পাদনা করতে অনুগ্রহ করে ডেভেলপার মোড সক্রিয় করুন।
 Start,শুরু
+Start from a blank page or pick a page from a template.,একটি ফাঁকা পৃষ্ঠা থেকে শুরু করুন অথবা টেমপ্লেট থেকে একটি পৃষ্ঠা বেছে নিন।
+Start from a blank page or pick a template.,একটি ফাঁকা পৃষ্ঠা থেকে শুরু করুন অথবা একটি টেমপ্লেট বেছে নিন।
 Start from blank,খালি পৃষ্ঠা থেকে শুরু করুন
+Start from scratch,নতুন করে শুরু করুন
+Start typing to search pages,পৃষ্ঠা খুঁজতে টাইপ করা শুরু করুন
 Status,অবস্থা
 Sticky,স্টিকি
 Stretch,প্রসারিত করুন
 String,স্ট্রিং
+Structure,কাঠামো
 Style,বিন্যাস
+Style Public URL,স্টাইল পাবলিক URL
+Supports Vision,ভিশন সমর্থন করে
+Switch to Dark Mode,ডার্ক মোডে পরিবর্তন করুন
+Switch to Light Mode,লাইট মোডে পরিবর্তন করুন
+Sync Component,কম্পোনেন্ট সিঙ্ক করুন
+Sync in all pages,সব পৃষ্ঠায় সিঙ্ক করুন
+Syncing component in all the pages...,সব পৃষ্ঠায় কম্পোনেন্ট সিঙ্ক করা হচ্ছে...
 System Manager,সিস্টেম ম্যানেজার
+System generated folder cannot be edited or deleted,সিস্টেম দ্বারা তৈরি ফোল্ডার সম্পাদনা বা মুছে ফেলা যাবে না
+Tab Index,ট্যাব ইনডেক্স
 Tablet,ট্যাবলেট
 Tag,Tag
 Target,টার্গেট
+Target Component,টার্গেট কম্পোনেন্ট
 Task Type,কাজ / টাস্ক-এর ধরন
 Template,টেমপ্লেট
 Template Group,টেমপ্লেট গ্রুপ
 Template Name,টেমপ্লেট-এর নাম
+Template group not found.,টেমপ্লেট গ্রুপ পাওয়া যায়নি।
+Template pages can only be deleted in developer mode.,টেমপ্লেট পৃষ্ঠা শুধুমাত্র ডেভেলপার মোডেই মুছে ফেলা যাবে।
+Template pages can only be modified in developer mode.,টেমপ্লেট পৃষ্ঠা শুধুমাত্র ডেভেলপার মোডেই পরিবর্তন করা যাবে।
 Templates,টেমপ্লেটসমূহ
 Text,টেক্সট
+Text (t),টেক্সট (t)
 Text Color,লেখার রং
+"That key was rejected. Check you copied all of it, and that it hasn't been revoked.",সেই কি (key) প্রত্যাখ্যাত হয়েছে। পুরো কি সঠিকভাবে কপি করেছেন কিনা এবং এটি বাতিল করা হয়নি তা পরীক্ষা করুন।
+"The URL path for this page. For variables, use colon (e.g. /users/:id)",এই পৃষ্ঠার URL পাথ। ভেরিয়েবলের জন্য কোলন ব্যবহার করুন (যেমন /users/:id)
+The component you are trying to replace with does not exist,আপনি যে কম্পোনেন্টটি দিয়ে প্রতিস্থাপন করতে চাইছেন তা বিদ্যমান নেই
+"The key is valid, but that model isn't available on this account.","কি (key)-টি বৈধ, কিন্তু এই অ্যাকাউন্টে সেই মডেলটি উপলব্ধ নেই।"
+"The key is valid, but the account has no credit or is rate limited right now.","কি (key)-টি বৈধ, কিন্তু অ্যাকাউন্টে কোনো ক্রেডিট নেই অথবা এই মুহূর্তে রেট লিমিট অতিক্রম করেছে।"
+"The model id at the provider, e.g. <code>anthropic/claude-sonnet-5</code> or <code>llama3.2</code>. The document name is the provider's route prefix plus this id.","প্রোভাইডারের মডেল আইডি, যেমন <code>anthropic/claude-sonnet-5</code> বা <code>llama3.2</code>। ডকুমেন্টের নামটি হলো প্রোভাইডারের রুট প্রিফিক্স এবং এই আইডির সমষ্টি।"
+"The preferred URL version of this page for search engines. If not set, the current page URL will be used.","সার্চ ইঞ্জিনের জন্য এই পৃষ্ঠার পছন্দসই URL সংস্করণ। সেট না করা থাকলে, বর্তমান পৃষ্ঠার URL ব্যবহার করা হবে।"
+"The provider litellm should call. Defaults to <code>openai</code> when an API Base is set (any OpenAI-compatible gateway), else <code>openrouter</code>.","যে প্রোভাইডারকে litellm-এর কল করা উচিত। একটি API Base সেট করা থাকলে ডিফল্ট হিসেবে <code>openai</code> (যেকোনো OpenAI-সামঞ্জস্যপূর্ণ গেটওয়ে), অন্যথায় <code>openrouter</code> হবে।"
 Theme,থিম
+There was an error while fetching page data,পৃষ্ঠার ডেটা লোড করার সময় একটি ত্রুটি হয়েছে
+These components changed since this page was last updated. Update to use the latest.,এই পৃষ্ঠাটি সর্বশেষ আপডেটের পর থেকে এই কম্পোনেন্টগুলো পরিবর্তিত হয়েছে। সর্বশেষ সংস্করণ ব্যবহার করতে আপডেট করুন।
 Thin,পাতলা
+This Year,চলতি বছর
+This action does not belong to you,এই অ্যাকশনটি আপনার অধিকারভুক্ত নয়
+This chat belongs to another user,এই চ্যাটটি অন্য একজন ব্যবহারকারীর
+This helps us personalise your Builder experience,এটি আপনার বিল্ডার অভিজ্ঞতাকে ব্যক্তিগতকৃত করতে সহায়তা করে
+This is a standard variable. It cannot be modified or deleted.,এটি একটি স্ট্যান্ডার্ড ভেরিয়েবল। এটি পরিবর্তন বা মুছে ফেলা যাবে না।
+This is the homepage for your site,এটি আপনার সাইটের হোমপেজ
+This page has limited access,এই পৃষ্ঠায় অ্যাক্সেস সীমিত
+This page will be exported to {0} app as standard page,এই পৃষ্ঠাটি স্ট্যান্ডার্ড পৃষ্ঠা হিসেবে {0} অ্যাপে এক্সপোর্ট করা হবে
+This page will no longer be the homepage,এই পৃষ্ঠাটি আর হোমপেজ থাকবে না
+This provider has no API Base to ask,জিজ্ঞাসার জন্য এই প্রোভাইডারের কোনো API Base নেই
+This script will be executed on all the pages of your website.,এই স্ক্রিপ্টটি আপনার ওয়েবসাইটের সমস্ত পৃষ্ঠায় কার্যকর হবে।
+This will be appended at the end of the &lt;body&gt;,এটি &lt;body&gt;-এর শেষে যুক্ত করা হবে
+This will be appended at the end of the &lt;head&gt;,এটি &lt;head&gt;-এর শেষে যুক্ত করা হবে
+This will load this version into the editor as your current draft. Your live page won't change until you publish. Continue?,এটি এই সংস্করণটিকে আপনার বর্তমান খসড়া হিসেবে এডিটরে লোড করবে। আপনি প্রকাশ না করা পর্যন্ত আপনার লাইভ পেজ পরিবর্তিত হবে না। চালিয়ে যেতে চান?
+This will revert all changes made to the page since the last publish. Are you sure you want to continue?,এটি সর্বশেষ প্রকাশের পর থেকে পেজে করা সমস্ত পরিবর্তন পূর্বাবস্থায় ফিরিয়ে নেবে। আপনি কি নিশ্চিত যে আপনি চালিয়ে যেতে চান?
+Timing,টাইমিং
 Title,পদ
 Today,আজকে
+Toggle Canvas Dark Mode,ক্যানভাস ডার্ক মোড টগল করুন
+Toggle Canvas Dark Mode (⌘⇧D),ক্যানভাস ডার্ক মোড টগল করুন (⌘⇧D)
+Toggle Dark Mode,ডার্ক মোড টগল করুন
+Toggle Panels,প্যানেল টগল করুন
 Toggle Theme,থিম পরিবর্তন
+Token Name,টোকেনের নাম
+Token created,টোকেন তৈরি করা হয়েছে
+Token name,টোকেনের নাম
+Token updated,টোকেন আপডেট করা হয়েছে
 Tokens,টোকেনসমূহ
 Tools,টুল
 Top,উপরে
 Top Center,উপরে মাঝে
+Top Clicks,শীর্ষ ক্লিক
 Top Left,শীর্ষ বাম
+Top Pages,শীর্ষ পেজ
+Top Referrers,শীর্ষ রেফারার
 Top Right,ওপরে ডানে
+Total Pageviews,মোট পেজভিউ
+Track Clicks,ক্লিক ট্র্যাক করুন
+Track the number of views on each page of your website,আপনার ওয়েবসাইটের প্রতিটি পেজের ভিউ সংখ্যা ট্র্যাক করুন
 Transform,রূপান্তর
+Transform Only,কেবল ট্রান্সফর্ম
+Transition,ট্রানজিশন
+True Label,ট্রু লেবেল
+Try different keywords or adjust your filters,ভিন্ন কীওয়ার্ড দিয়ে চেষ্টা করুন অথবা ফিল্টার পরিবর্তন করুন
+"Turn on view tracking to start collecting page views, clicks and click-through rates for your published pages.","আপনার প্রকাশিত পেজগুলোর পেজ ভিউ, ক্লিক এবং ক্লিক-থ্রু রেট সংগ্রহ শুরু করতে ভিউ ট্র্যাকিং চালু করুন।"
 Type,ধরন
+Type a prompt first,প্রথমে একটি প্রম্পট লিখুন
 Typography,টাইপোগ্রাফি
 URL,URL
+URL Variables,URL ভেরিয়েবল
 Undo,পূর্বাবস্থা
+Ungrouped {0} token,গ্রুপবিহীন {0}টি টোকেন
+Ungrouped {0} tokens,গ্রুপবিহীন {0}টি টোকেন
+Unique Visitors,ইউনিক ভিজিটর
+Unknown AI model: {0},অজানা এআই মডেল: {0}
+Unknown pending action: {0},অজানা অপেক্ষমাণ অ্যাকশন: {0}
+Unknown provider: {0},অজানা প্রোভাইডার: {0}
+Unpublish,আনপাবলিশ করুন
+Unrestricted,সীমাহীন
 Unset,নির্ধারিত নয়
+Unset Homepage,হোমপেজ বাতিল করুন
 Untitled,শিরোনামহীন
 Update,হালনাগাদ করুন
+Update Current Page,বর্তমান পেজ আপডেট করুন
+Update all,সব আপডেট করুন
+Update to Latest Component,সর্বশেষ কম্পোনেন্টে আপডেট করুন
+Updated global settings: {0},গ্লোবাল সেটিংস আপডেট করা হয়েছে: {0}
+Updated {0} token,{0}টি টোকেন আপডেট করা হয়েছে
+Updated {0} tokens,{0}টি টোকেন আপডেট করা হয়েছে
+Updating primary domain…,প্রাইমারি ডোমেইন আপডেট করা হচ্ছে…
+Updating redirect...,রিডাইরেক্ট আপডেট করা হচ্ছে...
 Upload,হ্যাঁ
+Upload CSV,CSV আপলোড করুন
+Upload Font,ফন্ট আপলোড করুন
 Upload Image,ছবি আপলোড করুন
+Upload Meta Image,মেটা ইমেজ আপলোড করুন
+Uploaded,আপলোড সম্পন্ন হয়েছে
+Uploading font...,ফন্ট আপলোড করা হচ্ছে...
+Uploading {0}%,আপলোড হচ্ছে {0}%
+Uploading...,আপলোড করা হচ্ছে...
 Uppercase,বড় ছাঁদের হরফ
+Use Regular Expression,রেগুলার এক্সপ্রেশন ব্যবহার করুন
+Use all {0} pages,সব {0}টি পৃষ্ঠা ব্যবহার করুন
+Use for all,সবগুলোর জন্য ব্যবহার করুন
+Use template,টেমপ্লেট ব্যবহার করুন
+Use this if your DNS provider doesn't support CNAME for subdomains.,আপনার DNS প্রদানকারী যদি সাবডোমেনের জন্য CNAME সমর্থন না করে তবে এটি ব্যবহার করুন।
+Used in 1 page,১টি পৃষ্ঠায় ব্যবহৃত
+Used in following pages,নিম্নলিখিত পৃষ্ঠাগুলোতে ব্যবহৃত
+Used in {0} pages,{0}টি পৃষ্ঠায় ব্যবহৃত
+User Font,ব্যবহারকারীর ফন্ট
+User is disabled: {0},ব্যবহারকারী নিষ্ক্রিয়: {0}
 Users,ব্যবহারকারীগণ
 Value,মান
+Value submitted with the form when this radio button is selected.,এই রেডিও বাটনটি নির্বাচন করা হলে ফর্মের সাথে সাবমিট হওয়া মান।
+Verifying DNS for {0}…,{0}-এর জন্য DNS যাচাই করা হচ্ছে…
 Version,সংস্করণ
+Version History,সংস্করণের ইতিহাস
+Version restored,সংস্করণ পুনরুদ্ধার করা হয়েছে
+Version saved,সংস্করণ সংরক্ষণ করা হয়েছে
 Vertical,উল্লম্ব
+Very Slow,খুব ধীর
 Video,ভিডিও
+Video Options,ভিডিও অপশন
 Video URL,ভিডিও লিংক
 View,প্রদর্শন
+View Page,পৃষ্ঠা দেখুন
+View in Desk,ডেস্কে দেখুন
+View tracking is off,ভিউ ট্র্যাকিং বন্ধ রয়েছে
 Views,প্রদর্শন বিন্যাস
 Visible,দৃশ্যমান
+Visitor ID,ভিজিটর আইডি
+WARNING: Updating will overwrite the existing values for the listed variables.,সতর্কতা: আপডেট করলে তালিকাভুক্ত ভেরিয়েবলগুলোর বিদ্যমান মান প্রতিস্থাপিত হবে।
 Warning,সতর্কবার্তা
+We'll point you to the right starting templates,আমরা আপনাকে সঠিক প্রারম্ভিক টেমপ্লেট নির্দেশ করব
+Web app UI,ওয়েব অ্যাপ UI
 Website Builder,ওয়েবসাইট বিল্ডার
+Website Manager,ওয়েবসাইট ম্যানেজার
 Weight,ওজন
+What do you want to build first?,আপনি প্রথমে কী তৈরি করতে চান?
+Which one best describes you?,কোনটি আপনাকে সবচেয়ে ভালোভাবে বর্ণনা করে?
 Width,প্রস্থ
+Working draft · unpublished changes,চলতি ড্রাফট · অপ্রকাশিত পরিবর্তন
 Wrap,গুটানো
 X Offset,X অফসেট
 Y Offset,Y অফসেট
 Yes,হ্যাঁ
+You,আপনি
+You are about to paste a page with settings and scripts. Do you want to update the current page or create a new one?,আপনি সেটিংস এবং স্ক্রিপ্টসহ একটি পৃষ্ঠা পেস্ট করতে যাচ্ছেন। আপনি কি বর্তমান পৃষ্ঠাটি আপডেট করতে চান নাকি একটি নতুন পৃষ্ঠা তৈরি করতে চান?
+You are not permitted to apply this change,আপনার এই পরিবর্তনটি প্রয়োগ করার অনুমতি নেই
+You are not permitted to manage AI models,আপনার AI মডেল পরিচালনা করার অনুমতি নেই
+You are not permitted to manage AI providers,আপনার AI প্রোভাইডার পরিচালনা করার অনুমতি নেই
+You can continue editing.,আপনি সম্পাদনা চালিয়ে যেতে পারেন।
+You cannot add link inside a button block,আপনি একটি বাটন ব্লকের ভেতরে লিংক যোগ করতে পারবেন না
+You cannot add link inside a link block,আপনি একটি লিংক ব্লকের ভেতরে লিংক যোগ করতে পারবেন না
+You cannot make heading a link,আপনি শিরোনামকে লিংক করতে পারবেন না
+You do not have access to this AI session,এই AI সেশনে আপনার অ্যাক্সেস নেই
 You do not have permission to access this page,এই পেজে প্রবেশ করার জন্য আপনার পর্যাপ্ত অনুমতি নেই
+You do not have permission to modify pages,আপনার পৃষ্ঠা সংশোধন করার অনুমতি নেই
+You do not have permission to read pages,আপনার পৃষ্ঠা দেখার অনুমতি নেই
+You don't have any pages yet. Click on the + New button to create a new page.,আপনার এখনও কোনো পৃষ্ঠা নেই। নতুন পৃষ্ঠা তৈরি করতে + New বাটনে ক্লিক করুন।
+You have unsaved changes. Are you sure you want to leave?,আপনার কিছু পরিবর্তন সংরক্ষিত হয়নি। আপনি কি নিশ্চিত যে আপনি চলে যেতে চান?
+You have unsaved changes. Please save before leaving.,আপনার কিছু পরিবর্তন সংরক্ষিত হয়নি। অনুগ্রহ করে প্রস্থান করার আগে সংরক্ষণ করুন।
+You're all set{0}. Pick a starting point,সব প্রস্তুত{0}। একটি শুরুর বিন্দু বেছে নিন
+YouTube,YouTube
 YouTube Video,ইউটিউব ভিডিও
+Z-Index,Z-Index
 Zoom In,প্রসারিত করো
 Zoom Out,ছোট করুন
 Zoom in,প্রসারিত করো
 Zoom out,ছোট করুন
+assistant,সহকারী
 chat,আলাপ
+clarification,স্পষ্টীকরণ
+"connect_form needs a doctype, fields, and a form selector","connect_form-এর জন্য একটি doctype, fields এবং একটি form selector প্রয়োজন"
+"data.events = frappe.get_list(""Event"")
+<br>
+<b>Note:</b> Each key value of data should be a list.","data.events = frappe.get_list(""Event"")
+<br>
+<b>নোট:</b> data-এর প্রতিটি key value একটি list হতে হবে।"
+e.g. yourdomain.com,যেমন: yourdomain.com
+"e.g., primary, accent, background","যেমন: প্রাইমারি, অ্যাকসেন্ট, ব্যাকগ্রাউন্ড"
+not used in any pages,কোনো পেজে ব্যবহৃত হয়নি
+or,অথবা
 status,অবস্থা
+this page,এই পেজ
 unknown,অজানা
 unnamed,নামবিহীন
+used in 1 page,১টি পেজে ব্যবহৃত
+used in {0} pages,{0}টি পেজে ব্যবহৃত
+used in {0}+ pages,{0}+টি পেজে ব্যবহৃত
 user,ব্যবহারকারী
+{0} & {1} others,{0} এবং আরও {1} জন
+{0} added successfully,{0} সফলভাবে যোগ করা হয়েছে
+{0} can't view images. Pick a vision-capable model or remove the image.,{0} ছবি দেখতে পারে না। ভিশন-সক্ষম একটি মডেল বেছে নিন অথবা ছবিটি সরিয়ে ফেলুন।
+{0} entries were invalid,{0}টি এন্ট্রি অবৈধ ছিল
+{0} entry was invalid,{0}টি এন্ট্রি অবৈধ ছিল
+{0} instance,{0}টি ইনস্ট্যান্স
+{0} instances,{0}টি ইনস্ট্যান্স
+{0} models still use this provider: {1},{0}টি মডেল এখনও এই প্রোভাইডার ব্যবহার করছে: {1}
+{0} page,{0}টি পেজ
+{0} pages,{0}টি পেজ
+{0} record,{0}টি রেকর্ড
+{0} removed,{0} সরানো হয়েছে
+{0} set as primary,{0} প্রাইমারি হিসেবে সেট করা হয়েছে
