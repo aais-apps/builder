@@ -1,0 +1,118 @@
+Website Builder,ওয়েবসাইট বিল্ডার
+Builder,বিল্ডার
+Page,পৃষ্ঠা
+Pages,পৃষ্ঠাসমূহ
+New Page,নতুন পৃষ্ঠা
+Create Page,পৃষ্ঠা তৈরি করুন
+Page Title,পৃষ্ঠার নাম
+Route,রুট / লিংক
+Home Page,মূল পাতা
+Header,হেডার
+Footer,ফুটার
+Section,সেকশন
+Container,কন্টেইনার
+Columns,কলামসমূহ
+Block,ব্লক
+Blocks,ব্লকসমূহ
+Component,উপাদান / কম্পোনেন্ট
+Components,উপাদানসমূহ
+Draft,খসড়া
+Live,প্রকাশিত লাইভ
+Publish,প্রকাশ করুন
+Published,প্রকাশিত হয়েছে
+Publish Changes,পরিবর্তন প্রকাশ করুন
+Discard Draft,খসড়া বাতিল করুন
+Preview,প্রাকদর্শন
+Open Preview,প্রাকদর্শন দেখুন
+Edit,সম্পাদনা করুন
+Settings,সেটিংস
+Page Settings,পৃষ্ঠার সেটিংস
+Theme,থিম
+Typography,টাইপোগ্রাফি
+Fonts,ফন্টসমূহ
+Font Family,ফন্ট ফ্যামিলি
+Font Size,ফন্টের আকার
+Font Weight,ফন্টের ঘনত্ব
+Colors,রং
+Color,রং
+Background,পটভূমি
+Background Color,পটভূমির রং
+Text Color,লেখার রং
+Border,সীমানা / বর্ডার
+Border Color,বর্ডারের রং
+Border Radius,বর্ডার কোণা গোল
+Border Width,বর্ডারের প্রস্থ
+Padding,প্যাডিং (অভ্যন্তরীণ ফাঁকা)
+Margin,মার্জিন (বাহ্যিক ফাঁকা)
+Width,প্রস্থ
+Height,উচ্চতা
+Max Width,সর্বোচ্চ প্রস্থ
+Min Height,সর্বনিম্ন উচ্চতা
+Alignment,সারিবদ্ধকরণ
+Left,বামে
+Center,মাঝখানে
+Right,ডানে
+Justify,উভয় পাশে সমান
+Flex,ফ্লেক্স
+Grid,গ্রিড
+Row,সারি
+Column,কলাম
+Gap,ফাঁকা অংশ
+Display,প্রদর্শন
+Visible,দৃশ্যমান
+Hidden,লুকানো
+Opacity,স্বচ্ছতা
+Shadow,ছায়া / শ্যাডো
+Box Shadow,বক্স শ্যাডো
+Image,ছবি
+Upload Image,ছবি আপলোড করুন
+Image URL,ছবির লিংক
+Alt Text,বিকল্প লেখা
+Button,বাটন
+Button Text,বাটনের লেখা
+Button Link,বাটনের লিংক
+Primary Button,প্রধান বাটন
+Secondary Button,সহকারী বাটন
+Text,টেক্সট / লেখা
+Heading,শিরোনাম
+Paragraph,অনুচ্ছেদ
+Link,লিংক
+Insert Link,লিংক যুক্ত করুন
+Video,ভিডিও
+Video URL,ভিডিও লিংক
+YouTube Video,ইউটিউব ভিডিও
+Embed,এম্বেড
+HTML,এইচটিএমএল
+Custom Code,কাস্টম কোড
+Client Script,ক্লায়েন্ট স্ক্রিপ্ট
+Data Script,উপাত্ত স্ক্রিপ্ট
+Tokens,টোকেনসমূহ
+Responsive,রেসপনসিভ
+Desktop,ডেস্কটপ
+Tablet,ট্যাবলেট
+Mobile,মোবাইল
+Undo,পূর্বাবস্থায় ফিরুন
+Redo,পুনরায় করুন
+Duplicate,প্রতিলিপি তৈরি করুন
+Delete Block,ব্লক মুছে ফেলুন
+Move Up,উপরে নিন
+Move Down,নিচে নিন
+Copy,কপি করুন
+Paste,পেস্ট করুন
+Save,সংরক্ষণ করুন
+Saved,সংরক্ষিত হয়েছে
+Changes saved,পরিবর্তন সংরক্ষিত হয়েছে
+No pages created yet,এখনও কোনো পৃষ্ঠা তৈরি করা হয়নি
+Start from blank,খালি পৃষ্ঠা থেকে শুরু করুন
+Templates,টেমপ্লেটসমূহ
+Template,টেমপ্লেট
+Choose Template,টেমপ্লেট নির্বাচন করুন
+Import Template,টেমপ্লেট আমদানি করুন
+Export Page,পৃষ্ঠা রপ্তানি করুন
+SEO,সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)
+Meta Title,মেটা শিরোনাম
+Meta Description,মেটা বিবরণ
+Meta Image,মেটা ছবি
+Canonical URL,ক্যানোনিকাল লিংক
+Favicon,ফেভিকন
+Site Settings,সাইট সেটিংস
