@@ -1,118 +1,354 @@
-Website Builder,ওয়েবসাইট বিল্ডার
-Builder,বিল্ডার
-Page,পৃষ্ঠা
-Pages,পৃষ্ঠাসমূহ
-New Page,নতুন পৃষ্ঠা
-Create Page,পৃষ্ঠা তৈরি করুন
-Page Title,পৃষ্ঠার নাম
-Route,রুট / লিংক
-Home Page,মূল পাতা
-Header,হেডার
-Footer,ফুটার
-Section,সেকশন
-Container,কন্টেইনার
-Columns,কলামসমূহ
-Block,ব্লক
-Blocks,ব্লকসমূহ
-Component,উপাদান / কম্পোনেন্ট
-Components,উপাদানসমূহ
-Draft,খসড়া
-Live,প্রকাশিত লাইভ
-Publish,প্রকাশ করুন
-Published,প্রকাশিত হয়েছে
-Publish Changes,পরিবর্তন প্রকাশ করুন
-Discard Draft,খসড়া বাতিল করুন
-Preview,প্রাকদর্শন
-Open Preview,প্রাকদর্শন দেখুন
-Edit,সম্পাদনা করুন
-Settings,সেটিংস
-Page Settings,পৃষ্ঠার সেটিংস
-Theme,থিম
-Typography,টাইপোগ্রাফি
-Fonts,ফন্টসমূহ
-Font Family,ফন্ট ফ্যামিলি
-Font Size,ফন্টের আকার
-Font Weight,ফন্টের ঘনত্ব
-Colors,রং
-Color,রং
+Accessibility,অ্যাক্সেসযোগ্যতা
+Active,সক্রিয়
+Add,যোগ করুন
+Add Property,বৈশিষ্ট্য যোগ করুন
+Advanced,উন্নত
+Alert,সাবধান
+Alignment,সারিবদ্ধকরণ
+All,সকল
+Alt Text,বিকল্প লেখা
+App,app
+Apps,অ্যাপস
+Attributes,বৈশিষ্ট্যাবলী
+Auto,স্বয়ংক্রিয়
+Back,পূর্ববর্তী
 Background,পটভূমি
 Background Color,পটভূমির রং
-Text Color,লেখার রং
+Basic,প্রাথমিক
+Black,কালো
+Block,ব্লক
+Blocks,ব্লকসমূহ
+Bold,গাঢ়
+Boolean,বুলিয়ান
 Border,সীমানা / বর্ডার
 Border Color,বর্ডারের রং
 Border Radius,বর্ডার কোণা গোল
-Border Width,বর্ডারের প্রস্থ
-Padding,প্যাডিং (অভ্যন্তরীণ ফাঁকা)
-Margin,মার্জিন (বাহ্যিক ফাঁকা)
-Width,প্রস্থ
-Height,উচ্চতা
-Max Width,সর্বোচ্চ প্রস্থ
-Min Height,সর্বনিম্ন উচ্চতা
-Alignment,সারিবদ্ধকরণ
-Left,বামে
-Center,মাঝখানে
-Right,ডানে
-Justify,উভয় পাশে সমান
-Flex,ফ্লেক্স
-Grid,গ্রিড
-Row,সারি
-Column,কলাম
-Gap,ফাঁকা অংশ
-Display,প্রদর্শন
-Visible,দৃশ্যমান
-Hidden,লুকানো
-Opacity,স্বচ্ছতা
-Shadow,ছায়া / শ্যাডো
+Border Width,প্রান্তের প্রস্থ
+Bottom,নীচে
+Bottom Center,নিচে মাঝে
+Bottom Left,নিচে বামে
+Bottom Right,ডান দিকের নিচে
 Box Shadow,বক্স শ্যাডো
-Image,ছবি
-Upload Image,ছবি আপলোড করুন
-Image URL,ছবির লিংক
-Alt Text,বিকল্প লেখা
+Builder,বিল্ডার
+Builder Settings,ওয়েবসাইট নির্মাতা সেটিংস
 Button,বাটন
-Button Text,বাটনের লেখা
 Button Link,বাটনের লিংক
-Primary Button,প্রধান বাটন
-Secondary Button,সহকারী বাটন
-Text,টেক্সট / লেখা
-Heading,শিরোনাম
-Paragraph,অনুচ্ছেদ
-Link,লিংক
-Insert Link,লিংক যুক্ত করুন
-Video,ভিডিও
-Video URL,ভিডিও লিংক
-YouTube Video,ইউটিউব ভিডিও
-Embed,এম্বেড
-HTML,এইচটিএমএল
-Custom Code,কাস্টম কোড
-Client Script,ক্লায়েন্ট স্ক্রিপ্ট
-Data Script,উপাত্ত স্ক্রিপ্ট
-Tokens,টোকেনসমূহ
-Responsive,রেসপনসিভ
-Desktop,ডেস্কটপ
-Tablet,ট্যাবলেট
-Mobile,মোবাইল
-Undo,পূর্বাবস্থায় ফিরুন
-Redo,পুনরায় করুন
-Duplicate,প্রতিলিপি তৈরি করুন
-Delete Block,ব্লক মুছে ফেলুন
-Move Up,উপরে নিন
-Move Down,নিচে নিন
-Copy,কপি করুন
-Paste,পেস্ট করুন
-Save,সংরক্ষণ করুন
-Saved,সংরক্ষিত হয়েছে
+Button Text,বাটনের লেখা
+CSS,CSS
+Cancel,বাতিল করুন
+Canonical URL,ক্যানোনিকাল লিংক
+Canvas,ক্যানভাস
+Category,বিভাগ
+Center,মধ্য
+Change,পরিবর্তন
 Changes saved,পরিবর্তন সংরক্ষিত হয়েছে
-No pages created yet,এখনও কোনো পৃষ্ঠা তৈরি করা হয়নি
-Start from blank,খালি পৃষ্ঠা থেকে শুরু করুন
-Templates,টেমপ্লেটসমূহ
-Template,টেমপ্লেট
+Checked,পরীক্ষিত
 Choose Template,টেমপ্লেট নির্বাচন করুন
-Import Template,টেমপ্লেট আমদানি করুন
+Class,ক্লাস
+Client Script,ক্লায়েন্ট স্ক্রিপ্ট
+Close,বন্ধ করুন
+Collapse,সংকোচন
+Color,রঙ
+Colors,রং
+Column,কলাম
+Columns,কলামসমূহ
+Component,উপাদান / কম্পোনেন্ট
+Component Name,কম্পোনেন্ট / উপাদান-এর নাম
+Components,উপাদানসমূহ
+Confirm,নিশ্চিত করুন
+Connected,সংযুক্ত
+Connection,সংযোগ
+Container,কন্টেইনার
+Controls,কন্ট্রোল
+Copy,অনুলিপি
+Count,গণনা
+Create,তৈরি করুন
+Create Folder,ফোল্ডার তৈরি করুন
+Create Page,পৃষ্ঠা তৈরি করুন
+Current Page,বর্তমান পৃষ্ঠা
+Cursor,কার্সার
+Custom,স্বনির্ধারিত
+Custom Code,কাস্টম কোড
+Dark,অন্ধকার
+Dashboard,ড্যাশবোর্ড
+Data,ডাটা
+Data Script,উপাত্ত স্ক্রিপ্ট
+Default,ডিফল্ট মান
+Default Items,ডিফল্ট আইটেমসমূহ
+Default Language,ডিফল্ট ভাষা
+Default Value,ডিফল্ট মান
+Delete,মুছুন
+Delete Block,ব্লক মুছে ফেলুন
+Delete Folder,ফোল্ডার মুছুন
+Delete Page,পৃষ্ঠা মুছুন
+Delete Variable,ভ্যারিয়েবল মুছুন
+Description,বিবরণ
+Desktop,ডেস্কটপ
+Developer,ডেভেলাপার
+Developer Settings,ডেভেলাপার সেটিংস
+Dimension,ডাইমেনশন
+Direction,দিকবিন্যাস
+Discard Draft,খসড়া বাতিল করুন
+Display,প্রদর্শন
+Done,সম্পন্ন
+Draft,খসড়া
+Duplicate,প্রতিলিপি তৈরি করুন
+Edit,সম্পাদনা করুন
+Edit CSS,CSS সম্পাদনা করুন
+Edit Component,কম্পোনেন্ট / উপাদান সম্পাদনা করুন
+Edit HTML,HTML সম্পাদনা করুন
+Element,এলিমেন্ট
+Embed,এম্বেড
+Enabled,সক্রিয়
+End,End
+Expand,প্রসারণ
 Export Page,পৃষ্ঠা রপ্তানি করুন
-SEO,সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)
-Meta Title,মেটা শিরোনাম
+Extra Bold,অধিক গাঢ়
+Extra Light,অধিক হালকা
+Family,সংকলন
+Fast,দ্রুত
+Favicon,ফেভিকন
+Filters,ফিল্টার
+Find,অনুসন্ধান
+Fit,আঁটাও
+Fixed,নির্দিষ্ট
+Flex,ফ্লেক্স
+Folder,ফোল্ডার
+Folder Name,ফোল্ডারের নাম
+Folders,ফোল্ডার
+Font,ফন্ট
+Font Family,ফন্ট ফ্যামিলি
+Font Name,ফন্টের নাম
+Font Size,ফন্টের আকার
+Font Weight,ফন্টের ঘনত্ব
+Fonts,ফন্ট
+Footer,ফুটার
+Free,বিনামূল্যে
+Gap,GAP
+General,সাধারণ
+Global,সার্বজনীন
+Global Code,সার্বজনীন কোড
+Gradient,গ্র্যাডিয়েন্ট
+Grid,গ্রিড
+Grid Type,গ্রিড-এর ধরন
+Group,গ্রুপ
+HTML,HTML
+Header,হেডার
+Heading,শিরোনাম
+Height,উচ্চতা
+Help,সহায়তা
+Hidden,আড়াল করা
+Hide,লুকান
+Home,প্রথম পাতা
+Home Page,মূল পাতা
+Homepage,মূলপাতা
+Horizontal,অনুভূমিক
+Image,ছবি
+Image URL,ছবির লিংক
+Import Template,টেমপ্লেট আমদানি করুন
+Insert,Insert
+Insert Link,লিংক যুক্ত করুন
+Is Required,আবশ্যকীয় কিনা
+Is Running,চলছে কিনা
+Is Standard,মান কিনা
+Items,আইটেমসমূহ
+JavaScript,Javascript
+Justify,সমপ্রান্তিক
+Key,কি
+Keyboard Shortcuts,কি-বোর্ড শর্ট-কাট
+Label,লেবেল
+Language,ভাষা
+Large,বড়
+Last Created,সর্বশেষ তৈরি
+Last Modified,সর্বশেষ পরিবর্তিত
+Layout,বিন্যাস
+Left,বাঁদিকে
+Light,হালকা
+Linear,রৈখিক
+Link,লিংক
+List,তালিকা
+Live,সরাসরি
+Loading...,লোড করা হচ্ছে...
+Loop,পরিহারের উপায়
+Lowercase,লোয়ারকেস
+Margin,মার্জিন
+Max Width,সর্বোচ্চ প্রস্থ
+Media,মিডিয়া
+Medium,মাঝারি
+Message Type,বার্তার ধরন
+Meta,Meta
 Meta Description,মেটা বিবরণ
 Meta Image,মেটা ছবি
-Canonical URL,ক্যানোনিকাল লিংক
-Favicon,ফেভিকন
+Meta Title,মেটা শিরোনাম
+Min Height,সর্বনিম্ন উচ্চতা
+Mobile,মোবাইল নম্বর
+Move,স্থানান্তরণ
+Move Down,নিচে নিন
+Move Up,উপরে নিন
+Muted,নিঃশব্দ
+Name,নাম
+Name already exists,উল্লিখিত নাম বর্তমানে উপস্থিত
+Navigation,নেভিগেশন
+New,নতুন
+New Component,নতুন কম্পোনেন্ট / উপাদান
+New Page,নতুন পৃষ্ঠা
+New Tab,নতুন ট্যাব
+New folder,নতুন ফোল্ডার
+New page,নতুন পৃষ্ঠা
+Next,পরবর্তী
+No,না
+No pages created yet,এখনও কোনো পৃষ্ঠা তৈরি করা হয়নি
+No results found,কোন ফলাফল পাওয়া যায়নি
+None,শূণ্য
+Normal,স্বাভাবিক
+Note:,নোট:
+Number,সংখ্যা
+Object,অবজেক্ট
+Ok,ঠিক আছে
+Opacity,অস্বচ্ছতা
+Open Preview,প্রাকদর্শন দেখুন
+Open in New Tab,নতুন ট্যাবে খোলা
+Options,বিকল্প
+Original Size,আসল আকার
+Other,অন্য
+Overview,সারসংক্ষেপ
+Padding,প্যাডিং
+Page,পৃষ্ঠা
+Page Code,পৃষ্ঠা কোড
+Page Name,পৃষ্ঠা-এর নাম
+Page Settings,পৃষ্ঠার সেটিংস
+Page Title,পৃষ্ঠার শিরোনাম
+Pages,পৃষ্ঠাসমূহ
+Paragraph,অনুচ্ছেদ
+Paste,পেস্ট করুন
+Path,পথ
+Position,অবস্থান
+Preview,প্রিভিউ
+Primary,প্রাথমিক
+Primary Button,প্রধান বাটন
+Properties,বৈশিষ্ট্য
+Property,বৈশিষ্ট্য
+Provider,পরিসেবা উপলব্ধকারী
+Provider Name,পরিসেবা উপলব্ধকারী-এর নাম
+Publish,প্রকাশ করুন
+Publish Changes,পরিবর্তন প্রকাশ করুন
+Published,প্রকাশিত
+Radius,ব্যাসার্ধ
+Read Only,শুধুমাত্র পড়ার জন্য
+Recent,সাম্প্রতিক
+Recently used,সম্প্রতি ব্যবহৃত
+Redo,পুনরাবৃত্তি
+Regular,সাধারণ
+Remove,মুছে ফেলুন
+Rename,নতুন নামকরণ
+Repeat,পুনরাবৃত্তি
+Replace,প্রতিস্থাপ
+Replace With,সাথে প্রতিস্থাপন করুন
+Responsive,রেসপনসিভ
+Retry,আবার চেষ্টা করো
+Right,ডানদিকে
+Role,ভূমিকা (Role)
+Route,রুট / লিংক
+Row,সারি
+Rows,সারিসমূহ
+SEO,সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)
+Save,সংরক্ষণ করুন
+Saved,সংরক্ষিত হয়েছে
+Scroll,উপর-নীচ করো
+Search,অনুসন্ধান
+Searching...,অনুসন্ধান করা হচ্ছে...
+Secondary Button,সহকারী বাটন
+Section,সেকশন
+Select,নির্বাচন
+Select App,app নির্বাচন করুন
+Select Folder,ফোল্ডার নির্বাচন করুন
+Select Mode,মোড (Mode) নির্বাচন করুন
+Select Template,টেমপ্লেট নির্বাচন করুন
+Select default color,ডিফল্ট রঙ নির্বাচন করুন
+Semi Bold,আংশিক গাঢ়
+Session,সেশন
+Settings,সেটিংস
+Shadow,ছায়া
+Shadow Color,ছায়া রং
+Shortcuts,শর্ট-কাট
+Show,দেখান
+Shrink,সঙ্কোচন
 Site Settings,সাইট সেটিংস
+Size,মাপ
+Slow,মন্থর
+Small,ছোট
+Snapshot Type,স্ন্যাপশট-এর ধরন
+Solid,গাঢ়
+Sort,সাজান
+Sort Order,সাজানোর ধারা
+Source,সোর্স
+Spacing,স্পেস স্থাপন
+Speed,গতি
+Start,শুরু
+Start from blank,খালি পৃষ্ঠা থেকে শুরু করুন
+Status,অবস্থা
+Sticky,স্টিকি
+Stretch,প্রসারিত করুন
+String,স্ট্রিং
+Style,বিন্যাস
+System Manager,সিস্টেম ম্যানেজার
+Tablet,ট্যাবলেট
+Tag,Tag
+Target,টার্গেট
+Task Type,কাজ / টাস্ক-এর ধরন
+Template,টেমপ্লেট
+Template Group,টেমপ্লেট গ্রুপ
+Template Name,টেমপ্লেট-এর নাম
+Templates,টেমপ্লেটসমূহ
+Text,টেক্সট
+Text Color,লেখার রং
+Theme,থিম
+Thin,পাতলা
+Title,পদ
+Today,আজকে
+Toggle Theme,থিম পরিবর্তন
+Tokens,টোকেনসমূহ
+Tools,টুল
+Top,উপরে
+Top Center,উপরে মাঝে
+Top Left,শীর্ষ বাম
+Top Right,ওপরে ডানে
+Transform,রূপান্তর
+Type,ধরন
+Typography,টাইপোগ্রাফি
+URL,URL
+Undo,পূর্বাবস্থা
+Unset,নির্ধারিত নয়
+Untitled,শিরোনামহীন
+Update,হালনাগাদ করুন
+Upload,হ্যাঁ
+Upload Image,ছবি আপলোড করুন
+Uppercase,বড় ছাঁদের হরফ
+Users,ব্যবহারকারীগণ
+Value,মান
+Version,সংস্করণ
+Vertical,উল্লম্ব
+Video,ভিডিও
+Video URL,ভিডিও লিংক
+View,প্রদর্শন
+Views,প্রদর্শন বিন্যাস
+Visible,দৃশ্যমান
+Warning,সতর্কবার্তা
+Website Builder,ওয়েবসাইট বিল্ডার
+Weight,ওজন
+Width,প্রস্থ
+Wrap,গুটানো
+X Offset,X অফসেট
+Y Offset,Y অফসেট
+Yes,হ্যাঁ
+You do not have permission to access this page,এই পেজে প্রবেশ করার জন্য আপনার পর্যাপ্ত অনুমতি নেই
+YouTube Video,ইউটিউব ভিডিও
+Zoom In,প্রসারিত করো
+Zoom Out,ছোট করুন
+Zoom in,প্রসারিত করো
+Zoom out,ছোট করুন
+chat,আলাপ
+status,অবস্থা
+unknown,অজানা
+unnamed,নামবিহীন
+user,ব্যবহারকারী
