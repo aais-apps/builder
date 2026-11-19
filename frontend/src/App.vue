@@ -33,7 +33,7 @@ sendPendingPersonaSurvey();
 const title = computed(() => {
 	return pageStore.activePage && route.name !== "home"
 		? `${pageStore.activePage.page_title || __("Untitled")} | Builder`
-		: "Frappe Builder";
+		: "Builder";
 });
 
 useTitle(title);

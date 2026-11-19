@@ -1,8 +1,8 @@
 app_name = "builder"
-app_title = "Frappe Builder"
-app_publisher = "Frappe Technologies Pvt Ltd"
-app_description = "An easier way to build web pages for your needs!"
-app_email = "suraj@frappe.io"
+app_title = "Builder"
+app_publisher = "Paradox Tech BD / AAIS"
+app_description = "Visual website and page builder"
+app_email = "support@paradox-bd.com"
 app_license = "MIT"
 
 # Includes in <head>

@@ -78,8 +78,7 @@
 								class="-mt-5 w-1/3 [&>div>div]:bg-surface-base"
 								height="calc(100% - 110px)"
 								description='Use Data Script to provide dynamic data to your web page.<br>
-								<b>{{ __("Example:") }}</b> data.events = frappe.get_list("Event")<br><br>
-								For more details on how to write data script, refer to <b><a class="underline" href="https://docs.frappe.io/builder/data-script" target="_blank">this documentation</a></b>.
+								<b>{{ __("Example:") }}</b> data.events = frappe.get_list("Event")
 								'
 								:readonly="true"></CodeEditor>
 						</div>
