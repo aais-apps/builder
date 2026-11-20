@@ -27,17 +27,13 @@ def render_full_page(html: str, width: int = 1280, height: int = 900, max_height
 	"""Screenshot the whole document from a real-sized viewport, so vh units keep the
 	size they have in a browser instead of stretching to the capture height."""
 	try:
-		from frappe.utils.pdf_generator.cdp_connection import CDPSocketClient
-		from frappe.utils.pdf_generator.chrome_pdf_generator import ChromePDFGenerator
-		from frappe.utils.pdf_generator.page import Page
 		from frappe.utils.pdf import get_host_url
 		from frappe.utils.preview import safe_execute
+
+		CDPSocketClient, Page, generator, browser_id = acquire_preview_browser()
 	except ImportError:
 		return render(html, width=width, height=max_height)
 
-	generator = ChromePDFGenerator()
-	browser_id = frappe.utils.random_string(10)
-	generator.add_browser(browser_id)
 	session = page = None
 	try:
 		try:
@@ -67,6 +63,23 @@ def render_full_page(html: str, width: int = 1280, height: int = 900, max_height
 		if proc is not None and proc.poll() is not None:
 			generator._close_browser()
 		raise
+
+
+def acquire_preview_browser():
+	try:
+		from frappe.utils.chromium import CDPSocketClient, ChromiumManager, Page
+	except ImportError:
+		# Frappe version-16 still ships the screenshot classes under pdf_generator.
+		from frappe.utils.pdf_generator.cdp_connection import CDPSocketClient
+		from frappe.utils.pdf_generator.chrome_pdf_generator import ChromePDFGenerator
+		from frappe.utils.pdf_generator.page import Page
+
+		generator = ChromePDFGenerator()
+		browser_id = frappe.utils.random_string(10)
+		generator.add_browser(browser_id)
+	else:
+		generator, browser_id = ChromiumManager.acquire()
+	return CDPSocketClient, Page, generator, browser_id
 
 
 def capture_document(page, width: int, max_height: int) -> bytes:

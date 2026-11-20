@@ -3,9 +3,9 @@
 
 """Install a plugin from a Builder Hub.
 
-The browser browses a Hub's catalog directly, but it never downloads plugin
-code. That crosses the trust boundary, so it happens here, on the server, under
-the session user.
+The browser reads a Hub's catalog through this module, and it never downloads
+plugin code. That crosses the trust boundary, so it happens here, on the server,
+under the session user.
 
 `install_from_hub` does only the fast part: the checks, an `Installing` row, and
 a background job. `run_hub_install` is the slow part: read the exact release,
@@ -42,7 +42,12 @@ from builder.plugins.constants import (
 	PLUGIN_NAME_PATTERN,
 	PROTOCOL_VERSION,
 )
-from builder.plugins.installations import NO_BUILDER_ACCESS, describe_installation, install_job_id
+from builder.plugins.installations import (
+	NO_BUILDER_ACCESS,
+	describe_installation,
+	describe_source,
+	install_job_id,
+)
 from builder.plugins.package import ValidatedPackage, validate_package
 from builder.plugins.safe_requests import get_safe_request_session
 from builder.utils import has_page_read
@@ -90,9 +95,16 @@ def resolve_hub_url() -> str:
 
 @frappe.whitelist()
 @has_page_read(NO_BUILDER_ACCESS)
-def get_hub_url() -> str:
-	"""The Hub the panel reads its catalog from. Only the server can read the site config."""
-	return resolve_hub_url()
+def get_catalog(page: int = 1) -> dict:
+	"""One page of the Hub catalog."""
+	return hub_get(resolve_hub_url(), "get_catalog", {"page": page, "protocol_version": PROTOCOL_VERSION})
+
+
+@frappe.whitelist()
+@has_page_read(NO_BUILDER_ACCESS)
+def get_plugin(name: str) -> dict:
+	"""The Hub listing of one plugin, for a plugin that the site has not installed."""
+	return hub_plugin(resolve_hub_url(), name)
 
 
 def ensure_protocol(url: str, default_scheme: str = "https") -> str:
@@ -306,7 +318,8 @@ def assert_installable(name: str) -> None:
 	plugins, a bad name, or a name the site already has installed or
 	installing.
 
-	A `Failed` row is not a block, so the panel's Retry starts a fresh job on it.
+	A `Failed` row is not a block, so the panel's Retry starts a fresh job on it. A row
+	that comes with an app is, as its build fixes it.
 	Nor is an `Installing` row whose job is gone: a crashed worker cannot mark the
 	row itself. While the job is queued or running, a retry would start a second
 	job on the same row, and the one that ends last would win.
@@ -320,11 +333,13 @@ def assert_installable(name: str) -> None:
 	existing = find_installation(name)
 	if not existing:
 		return
-	state, hub_url = frappe.db.get_value(INSTALLATION_DOCTYPE, existing, ["install_state", "hub_url"])
-	if state == "Installing" and is_job_enqueued(install_job_id(existing)):
+	row = frappe.db.get_value(
+		INSTALLATION_DOCTYPE, existing, ["install_state", "source", "hub_url", "source_app"], as_dict=True
+	)
+	if row.install_state == "Installing" and is_job_enqueued(install_job_id(existing)):
 		frappe.throw(_('"{0}" is already installing.').format(name))
-	if state not in ("Failed", "Installing"):
-		frappe.throw(_('"{0}" is already installed from {1}.').format(name, hub_url or _("a dev server")))
+	if row.source == "App" or row.install_state not in ("Failed", "Installing"):
+		frappe.throw(_('"{0}" is already installed from {1}.').format(name, describe_source(row)))
 
 
 def create_pending_installation(name: str, version: str, listing: dict) -> str:
@@ -364,18 +379,4 @@ def create_pending_installation(name: str, version: str, listing: dict) -> str:
 
 def apply_release(doc, hub_url: str, release: Release, package: ValidatedPackage) -> None:
 	"""Fill the pending row from the release and write the site's copy."""
-	manifest = package.manifest
-	doc.update(
-		{
-			"hub_url": hub_url,
-			"label": manifest["label"],
-			"description": manifest["description"],
-			"icon": manifest.get("icon"),
-			"version": release.version,
-			"checksum": release.package_sha256[:12],
-			"install_state": "Ready",
-			"install_error": None,
-		}
-	)
-	doc.save()
-	doc.write_plugin_files(package.files)
+	doc.apply_package(package, release.package_sha256[:12], {"hub_url": hub_url})

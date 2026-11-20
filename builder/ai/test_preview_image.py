@@ -1,5 +1,4 @@
 import base64
-import sys
 from contextlib import ExitStack
 from unittest.mock import Mock, patch
 
@@ -33,10 +32,16 @@ class TestFullPageCapture(FrappeTestCase):
 		stack = ExitStack()
 		self.addCleanup(stack.close)
 		stack.enter_context(
-			patch("frappe.utils.chromium.ChromiumManager.acquire", return_value=(self.generator, "browser"))
+			patch(
+				"builder.html_preview_image.acquire_preview_browser",
+				return_value=(
+					Mock(return_value=self.session),
+					Mock(return_value=self.page),
+					self.generator,
+					"browser",
+				),
+			)
 		)
-		stack.enter_context(patch("frappe.utils.chromium.CDPSocketClient", return_value=self.session))
-		stack.enter_context(patch("frappe.utils.chromium.Page", return_value=self.page))
 		stack.enter_context(patch("frappe.utils.pdf.get_host_url", return_value="http://builder.test"))
 
 	def assert_cleaned_up(self):
@@ -98,9 +103,29 @@ class TestFullPageCapture(FrappeTestCase):
 
 	def test_falls_back_to_a_tall_viewport_without_chromium_helpers(self):
 		with (
-			patch.dict(sys.modules, {"frappe.utils.chromium": None}),
+			patch("builder.html_preview_image.acquire_preview_browser", side_effect=ImportError),
 			patch("builder.html_preview_image.render", return_value=b"tall") as render,
 		):
 			self.assertEqual(render_full_page("<p>Hi</p>", width=390, height=844, max_height=8000), b"tall")
 
 		render.assert_called_once_with("<p>Hi</p>", width=390, height=8000)
+
+
+class TestPreviewPageErrors(FrappeTestCase):
+	def test_a_page_that_raises_says_why_instead_of_blaming_the_renderer(self):
+		import frappe
+
+		from builder.ai.agent.tools.preview import run_preview_page
+
+		page = frappe.get_doc({"doctype": "Builder Page", "page_title": "Broken Data Page"}).insert()
+		page.db_set(
+			"page_data_script", "rows = [1]\ndef count():\n    return len(rows)\ndata.total = count()"
+		)
+		ctx = Mock(page_id=page.name, preview_count=0)
+
+		out = run_preview_page(ctx, {})
+
+		self.assertTrue(out.startswith("FAILED: the page itself fails to render"), out)
+		self.assertIn("NameError", out)
+		self.assertIn("line 3", out)
+		self.assertEqual(ctx.preview_count, 0)

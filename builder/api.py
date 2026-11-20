@@ -4,7 +4,7 @@ from io import BytesIO
 from itertools import count
 from types import FunctionType, MethodType, ModuleType
 from typing import Any
-from urllib.parse import unquote, urlparse
+from urllib.parse import quote, unquote, urlparse
 
 import frappe
 from frappe import _
@@ -331,9 +331,12 @@ def check_app_permission():
 
 
 @frappe.whitelist()
-def open_editor() -> None:
+def open_editor(page: str | None = None) -> None:
+	location = f"/{get_builder_path()}"
+	if page:
+		location += f"/page/{quote(page, safe='')}"
 	frappe.local.response["type"] = "redirect"
-	frappe.local.response["location"] = f"/{get_builder_path()}"
+	frappe.local.response["location"] = location
 
 
 @frappe.whitelist()
@@ -572,7 +575,13 @@ def get_template_groups() -> list[dict]:
 			"title": "প্রশাসন ও শিক্ষকবৃন্দ (Administration & Faculty)",
 			"description": "প্রশাসন কাঠামো, প্রধান শিক্ষকের বাণী, পরিচালনা কমিটি এবং শিক্ষক ও কর্মচারীদের বিবরণ।",
 			"categories": ["Administration", "Faculty"],
-			"routes": ["administration", "headteacher-message", "management-committee", "teachers-staff", "teacher-profile"],
+			"routes": [
+				"administration",
+				"headteacher-message",
+				"management-committee",
+				"teachers-staff",
+				"teacher-profile",
+			],
 		},
 		{
 			"name": "bd_school_admission",
@@ -593,7 +602,17 @@ def get_template_groups() -> list[dict]:
 			"title": "শিক্ষার্থী কর্নার ও সেবা (Student Corner & Services)",
 			"description": "শিক্ষার্থী কর্নার, আচরণবিধি, সহশিক্ষা ক্লাব, অভিভাবক কর্নার, সিটিজেন চার্টার ও যোগাযোগ।",
 			"categories": ["Student Services", "Governance"],
-			"routes": ["student-corner", "student-guidelines", "clubs-activities", "parent-corner", "citizen-charter", "governance", "downloads", "faq", "contact"],
+			"routes": [
+				"student-corner",
+				"student-guidelines",
+				"clubs-activities",
+				"parent-corner",
+				"citizen-charter",
+				"governance",
+				"downloads",
+				"faq",
+				"contact",
+			],
 		},
 	]
 
@@ -603,16 +622,18 @@ def get_template_groups() -> list[dict]:
 		if not g_pages:
 			continue
 		preview_img = g_pages[0]["preview"] or "/assets/builder/images/fallback.png"
-		result_groups.append({
-			"name": g["name"],
-			"title": g["title"],
-			"description": g["description"],
-			"categories": g["categories"],
-			"preview": preview_img,
-			"thumbnail": preview_img,
-			"order": idx,
-			"pages": g_pages,
-		})
+		result_groups.append(
+			{
+				"name": g["name"],
+				"title": g["title"],
+				"description": g["description"],
+				"categories": g["categories"],
+				"preview": preview_img,
+				"thumbnail": preview_img,
+				"order": idx,
+				"pages": g_pages,
+			}
+		)
 
 	return result_groups
 
@@ -728,9 +749,6 @@ def import_template_group(template_group: str) -> dict:
 	if not pages:
 		frappe.throw(frappe._("No pages found in this template group."))
 
-	slug = frappe.scrub(template_group).replace("_", "-")
-	folder, prefix = create_import_folder(group.get("title") or template_group, slug)
-
 	created = []
 	local_page_names = []
 	remote_pages = []
@@ -741,13 +759,18 @@ def import_template_group(template_group: str) -> dict:
 		else:
 			remote_pages.append(p)
 
+	bundles = fetch_group_bundles(remote_pages) if remote_pages else []
+	if not local_page_names and not bundles:
+		frappe.throw(frappe._("Could not load any pages from the selected template group."))
+
+	slug = frappe.scrub(template_group).replace("_", "-")
+	folder, prefix = create_import_folder(group.get("title") or template_group, slug)
+
 	for lp in local_page_names:
 		created.append(create_page_from_template(lp, folder))
 
-	if remote_pages:
-		bundles = fetch_group_bundles(remote_pages)
-		if bundles:
-			created.extend(import_group_pages(bundles, template_group, folder, prefix))
+	if bundles:
+		created.extend(import_group_pages(bundles, template_group, folder, prefix))
 
 	return {"folder": folder, "pages": created}
 
