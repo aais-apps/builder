@@ -1,5 +1,4 @@
 import base64
-import sys
 from contextlib import ExitStack
 from unittest.mock import Mock, patch
 
@@ -33,10 +32,16 @@ class TestFullPageCapture(FrappeTestCase):
 		stack = ExitStack()
 		self.addCleanup(stack.close)
 		stack.enter_context(
-			patch("frappe.utils.chromium.ChromiumManager.acquire", return_value=(self.generator, "browser"))
+			patch(
+				"builder.html_preview_image.acquire_preview_browser",
+				return_value=(
+					Mock(return_value=self.session),
+					Mock(return_value=self.page),
+					self.generator,
+					"browser",
+				),
+			)
 		)
-		stack.enter_context(patch("frappe.utils.chromium.CDPSocketClient", return_value=self.session))
-		stack.enter_context(patch("frappe.utils.chromium.Page", return_value=self.page))
 		stack.enter_context(patch("frappe.utils.pdf.get_host_url", return_value="http://builder.test"))
 
 	def assert_cleaned_up(self):
@@ -98,7 +103,7 @@ class TestFullPageCapture(FrappeTestCase):
 
 	def test_falls_back_to_a_tall_viewport_without_chromium_helpers(self):
 		with (
-			patch.dict(sys.modules, {"frappe.utils.chromium": None}),
+			patch("builder.html_preview_image.acquire_preview_browser", side_effect=ImportError),
 			patch("builder.html_preview_image.render", return_value=b"tall") as render,
 		):
 			self.assertEqual(render_full_page("<p>Hi</p>", width=390, height=844, max_height=8000), b"tall")

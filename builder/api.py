@@ -749,9 +749,6 @@ def import_template_group(template_group: str) -> dict:
 	if not pages:
 		frappe.throw(frappe._("No pages found in this template group."))
 
-	slug = frappe.scrub(template_group).replace("_", "-")
-	folder, prefix = create_import_folder(group.get("title") or template_group, slug)
-
 	created = []
 	local_page_names = []
 	remote_pages = []
@@ -762,13 +759,18 @@ def import_template_group(template_group: str) -> dict:
 		else:
 			remote_pages.append(p)
 
+	bundles = fetch_group_bundles(remote_pages) if remote_pages else []
+	if not local_page_names and not bundles:
+		frappe.throw(frappe._("Could not load any pages from the selected template group."))
+
+	slug = frappe.scrub(template_group).replace("_", "-")
+	folder, prefix = create_import_folder(group.get("title") or template_group, slug)
+
 	for lp in local_page_names:
 		created.append(create_page_from_template(lp, folder))
 
-	if remote_pages:
-		bundles = fetch_group_bundles(remote_pages)
-		if bundles:
-			created.extend(import_group_pages(bundles, template_group, folder, prefix))
+	if bundles:
+		created.extend(import_group_pages(bundles, template_group, folder, prefix))
 
 	return {"folder": folder, "pages": created}
 
