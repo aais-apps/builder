@@ -575,7 +575,13 @@ def get_template_groups() -> list[dict]:
 			"title": "প্রশাসন ও শিক্ষকবৃন্দ (Administration & Faculty)",
 			"description": "প্রশাসন কাঠামো, প্রধান শিক্ষকের বাণী, পরিচালনা কমিটি এবং শিক্ষক ও কর্মচারীদের বিবরণ।",
 			"categories": ["Administration", "Faculty"],
-			"routes": ["administration", "headteacher-message", "management-committee", "teachers-staff", "teacher-profile"],
+			"routes": [
+				"administration",
+				"headteacher-message",
+				"management-committee",
+				"teachers-staff",
+				"teacher-profile",
+			],
 		},
 		{
 			"name": "bd_school_admission",
@@ -596,7 +602,17 @@ def get_template_groups() -> list[dict]:
 			"title": "শিক্ষার্থী কর্নার ও সেবা (Student Corner & Services)",
 			"description": "শিক্ষার্থী কর্নার, আচরণবিধি, সহশিক্ষা ক্লাব, অভিভাবক কর্নার, সিটিজেন চার্টার ও যোগাযোগ।",
 			"categories": ["Student Services", "Governance"],
-			"routes": ["student-corner", "student-guidelines", "clubs-activities", "parent-corner", "citizen-charter", "governance", "downloads", "faq", "contact"],
+			"routes": [
+				"student-corner",
+				"student-guidelines",
+				"clubs-activities",
+				"parent-corner",
+				"citizen-charter",
+				"governance",
+				"downloads",
+				"faq",
+				"contact",
+			],
 		},
 	]
 
@@ -606,16 +622,18 @@ def get_template_groups() -> list[dict]:
 		if not g_pages:
 			continue
 		preview_img = g_pages[0]["preview"] or "/assets/builder/images/fallback.png"
-		result_groups.append({
-			"name": g["name"],
-			"title": g["title"],
-			"description": g["description"],
-			"categories": g["categories"],
-			"preview": preview_img,
-			"thumbnail": preview_img,
-			"order": idx,
-			"pages": g_pages,
-		})
+		result_groups.append(
+			{
+				"name": g["name"],
+				"title": g["title"],
+				"description": g["description"],
+				"categories": g["categories"],
+				"preview": preview_img,
+				"thumbnail": preview_img,
+				"order": idx,
+				"pages": g_pages,
+			}
+		)
 
 	return result_groups
 
