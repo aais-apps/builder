@@ -359,6 +359,8 @@ class BuilderPage(WebsiteGenerator):
 		for session in frappe.get_all("Builder AI Session", filters={"page": self.name}, pluck="name"):
 			# another user's chat on this page goes too, whoever deletes the page
 			frappe.delete_doc("Builder AI Session", session, ignore_missing=True, ignore_permissions=True)
+		# a chat that went on elsewhere keeps its messages and just stops listing this page
+		frappe.db.delete("Builder AI Session Page", {"page": self.name})
 
 		if self.is_template and self.template_group:
 			if frappe.conf.developer_mode:
@@ -687,6 +689,16 @@ class BuilderPage(WebsiteGenerator):
 		context["_head_html"] = render_template(context._head_html, context)  # nosemgrep
 		context["_body_html"] = render_template(context._body_html, context)  # nosemgrep
 
+	def get_app_page_data(self) -> dict:
+		"""Data installed apps give this page through the builder_page_data hook, each under its app's name,
+		so bindings read `<app>.<key>`. The page's own data script runs after, with this data already in `data`."""
+		app_data = {}
+		for app in frappe.get_installed_apps():
+			for method in frappe.get_hooks("builder_page_data", app_name=app):
+				if data := frappe.get_attr(method)(self):
+					app_data.setdefault(app, {}).update(data)
+		return app_data
+
 	@frappe.whitelist()
 	def get_page_data(self, route_variables: dict | None = None) -> dict:
 		return self._get_page_data(route_variables=route_variables, for_render=False)
@@ -694,7 +706,8 @@ class BuilderPage(WebsiteGenerator):
 	def _get_page_data(self, route_variables: dict | None = None, for_render: bool = False) -> dict:
 		if route_variables:
 			frappe.form_dict.update({k: v for k, v in route_variables.items()})
-		page_data = frappe._dict()
+		# the page's script sees what apps gave, so it can read or change it
+		page_data = frappe._dict(self.get_app_page_data())
 		if self.page_data_script:
 
 			def redirect(location: str, http_status_code: int = 302):
@@ -702,7 +715,7 @@ class BuilderPage(WebsiteGenerator):
 					frappe.local.flags.redirect_location = location
 					raise frappe.Redirect(http_status_code)
 
-			_locals = dict(data=frappe._dict(), redirect=redirect)
+			_locals = dict(data=page_data, redirect=redirect)
 			execute_script(self.page_data_script, _locals, self.name)
 			page_data.update(_locals["data"])
 
@@ -1047,8 +1060,9 @@ def get_dynamic_props_template(
 	"""Get a Jinja template reference for dynamic properties."""
 	# props tell a missing path apart from an empty object, so the chain ends in none
 	key = get_binding_key(prop_value, comes_from, data_key, missing="none")
-	fallback = escape_single_quotes(default_value) if default_value is not None else "undefined"
-	return f"{{{{ {key} if {key} is defined and {key} is not none else '{fallback}' }}}}"
+	# a number, boolean or object default is a literal of its own type, not a quoted string
+	fallback = to_jinja_literal(default_value) if default_value is not None else "'undefined'"
+	return f"{{{{ {key} if {key} is defined and {key} is not none else {fallback} }}}}"
 
 
 # Reserved characters and existing %-escapes pass through, so absolute and data: URLs
