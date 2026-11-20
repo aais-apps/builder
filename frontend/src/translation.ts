@@ -13,7 +13,7 @@ export function __(source: string, replacements: Replacement[] = [], context?: s
 export async function ensureTranslations() {
 	if (window.translated_messages) return;
 	try {
-		const response = await fetch("/api/method/frappe.translate.get_boot_translations");
+		const response = await fetch("/api/method/builder.www._builder.get_translations");
 		window.translated_messages = (await response.json()).message || {};
 	} catch {
 		window.translated_messages = {};

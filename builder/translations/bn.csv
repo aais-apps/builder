@@ -1067,3 +1067,98 @@ user,ব্যবহারকারী
 {0} record,{0}টি রেকর্ড
 {0} removed,{0} সরানো হয়েছে
 {0} set as primary,{0} প্রাইমারি হিসেবে সেট করা হয়েছে
+All Pages,সব পৃষ্ঠা
+All Properties,সব বৈশিষ্ট্য
+Adding all pages...,সব পৃষ্ঠা যোগ করা হচ্ছে...
+All pages added,সব পৃষ্ঠা যোগ করা হয়েছে
+Adding {0}…,{0} যোগ করা হচ্ছে…
+Add CSS property,CSS বৈশিষ্ট্য যোগ করুন
+Add Custom Meta Tags,কাস্টম মেটা ট্যাগ যোগ করুন
+Add Domain,ডোমেইন যোগ করুন
+Add Redirect,পুনর্নির্দেশ যোগ করুন
+Add Script,স্ক্রিপ্ট যোগ করুন
+Add Token,টোকেন যোগ করুন
+Add a block to repeat,পুনরাবৃত্তির জন্য একটি ব্লক যোগ করুন
+"Add meta tags, styles, and scripts to page head","পৃষ্ঠার হেডে মেটা ট্যাগ, স্টাইল ও স্ক্রিপ্ট যোগ করুন"
+Add scripts to page body,পৃষ্ঠার বডিতে স্ক্রিপ্ট যোগ করুন
+Alphabetically (A-Z),বর্ণানুক্রমে (A–Z)
+Alphabetically (Z-A),বিপরীত বর্ণানুক্রমে (Z–A)
+Search by name or route...,নাম বা রুট দিয়ে খুঁজুন...
+Search commands...,কমান্ড খুঁজুন...
+Search component,কম্পোনেন্ট খুঁজুন
+Search inside selected block only,শুধু নির্বাচিত ব্লকের মধ্যে খুঁজুন
+Search properties,বৈশিষ্ট্য খুঁজুন
+Search redirects,পুনর্নির্দেশ খুঁজুন
+Search settings...,সেটিংস খুঁজুন...
+Search tokens,টোকেন খুঁজুন
+Search your blocks,আপনার ব্লকগুলো খুঁজুন
+Select (v),নির্বাচন করুন (v)
+Select All Matches (Alt+Enter),সব মিল নির্বাচন করুন (Alt+Enter)
+Select a block to edit properties,বৈশিষ্ট্য সম্পাদনা করতে একটি ব্লক নির্বাচন করুন
+Select a collection,একটি সংগ্রহ নির্বাচন করুন
+Select date range,তারিখের পরিসর নির্বাচন করুন
+Select or type a group name,একটি দলের নাম নির্বাচন করুন বা লিখুন
+Select the app for this standard page,এই মানক পৃষ্ঠার জন্য অ্যাপ নির্বাচন করুন
+Set As Homepage,প্রচ্ছদ হিসেবে নির্ধারণ করুন
+Set current page as Homepage,বর্তমান পৃষ্ঠাটি প্রচ্ছদ হিসেবে নির্ধারণ করুন
+Set Background,পটভূমি নির্ধারণ করুন
+Set Color,রং নির্ধারণ করুন
+Set Dynamic Value,পরিবর্তনশীল মান নির্ধারণ করুন
+Set Font,ফন্ট নির্ধারণ করুন
+Set Image,ছবি নির্ধারণ করুন
+Show Children,অধীনস্থ ব্লক দেখান
+Show Keyboard Shortcuts,কিবোর্ড শর্টকাট দেখান
+Show Left Panel,বাম প্যানেল দেখান
+Show Right Panel,ডান প্যানেল দেখান
+Show Replace,প্রতিস্থাপনের বিকল্প দেখান
+Site is in read-only mode,সাইটটি এখন শুধু পড়ার মোডে আছে
+Site is back online,সাইটটি আবার চালু হয়েছে
+Social Preview,সামাজিক মাধ্যমে প্রিভিউ
+Snapshot does not belong to this page,স্ন্যাপশটটি এই পৃষ্ঠার নয়
+({0} invalid entries skipped),({0}টি অবৈধ এন্ট্রি বাদ দেওয়া হয়েছে)
+({0} invalid entry skipped),({0}টি অবৈধ এন্ট্রি বাদ দেওয়া হয়েছে)
+({0} remaining),({0}টি বাকি)
+({0} standard token skipped),({0}টি মানক টোকেন বাদ দেওয়া হয়েছে)
+({0} standard tokens skipped),({0}টি মানক টোকেন বাদ দেওয়া হয়েছে)
++ Add Shadow Layer,+ ছায়ার স্তর যোগ করুন
+301 - Moved Permanently,301 - স্থায়ীভাবে স্থানান্তরিত
+302 - Found (Temporary),302 - পাওয়া গেছে (অস্থায়ী)
+307 - Temporary Redirect,307 - অস্থায়ী পুনর্নির্দেশ
+308 - Permanent Redirect,308 - স্থায়ী পুনর্নির্দেশ
+A booking site for my clinic,আমার ক্লিনিকের বুকিং সাইট
+A record points to wrong IP: {0},A রেকর্ডটি ভুল IP ঠিকানায় নির্দেশ করছে: {0}
+AI,কৃত্রিম বুদ্ধিমত্তা
+AI API Key,AI API কী
+AI Settings,AI সেটিংস
+AI session does not belong to this page,AI সেশনটি এই পৃষ্ঠার নয়
+AI session not found,AI সেশন পাওয়া যায়নি
+API Base,API বেস URL
+API key for the selected AI model provider,নির্বাচিত AI মডেল প্রদানকারীর API কী
+API key is valid,API কীটি বৈধ
+Add a model to this provider first,প্রথমে এই প্রদানকারীর একটি মডেল যোগ করুন
+Added to end of body. For adding scripts.,বডির শেষে যোগ করা হবে। স্ক্রিপ্ট যোগ করার জন্য।
+"Added to end of head. For meta tags, styles, and scripts.","হেডের শেষে যোগ করা হবে। মেটা ট্যাগ, স্টাইল ও স্ক্রিপ্টের জন্য।"
+Adding redirect...,পুনর্নির্দেশ যোগ করা হচ্ছে...
+Agency / Freelancer,এজেন্সি / ফ্রিল্যান্সার
+All client scripts are executed in preview mode and on published pages.,প্রিভিউ মোডে ও প্রকাশিত পৃষ্ঠায় সব ক্লায়েন্ট স্ক্রিপ্ট চালানো হয়।
+All the images uploaded to Canvas will be auto converted to WebP for better page performance.,পৃষ্ঠার গতি বাড়াতে ক্যানভাসে আপলোড করা সব ছবি স্বয়ংক্রিয়ভাবে WebP ফরম্যাটে রূপান্তরিত হবে।
+All the images uploaded via Builder will be converted to WebP for better page performance,পৃষ্ঠার গতি বাড়াতে Builder-এর মাধ্যমে আপলোড করা সব ছবি WebP ফরম্যাটে রূপান্তরিত হবে।
+Already a member: {0},ইতিমধ্যেই সদস্য: {0}
+Already invited: {0},ইতিমধ্যেই আমন্ত্রিত: {0}
+Search by name or email,নাম বা ইমেল দিয়ে খুঁজুন
+Seeded {0} sample record(s) into {1},{1}-এ {0}টি নমুনা রেকর্ড যোগ করা হয়েছে
+Selected Model,নির্বাচিত মডেল
+Send Invitation,আমন্ত্রণ পাঠান
+Serve Locally,স্থানীয় সার্ভার থেকে পরিবেশন করুন
+Session User,বর্তমান সেশনের ব্যবহারকারী
+Session not found,সেশন পাওয়া যায়নি
+Set folder to organize your page,পৃষ্ঠা সাজাতে একটি ফোল্ডার নির্ধারণ করুন
+Set separately,আলাদাভাবে নির্ধারণ করুন
+Site Analytics,সাইট বিশ্লেষণ
+Skipped {0} invalid entries,{0}টি অবৈধ এন্ট্রি বাদ দেওয়া হয়েছে
+Skipped {0} invalid entry,{0}টি অবৈধ এন্ট্রি বাদ দেওয়া হয়েছে
+Skipped {0} standard token (read-only),{0}টি মানক টোকেন বাদ দেওয়া হয়েছে (শুধু পড়ার জন্য)
+Skipped {0} standard tokens (read-only),{0}টি মানক টোকেন বাদ দেওয়া হয়েছে (শুধু পড়ার জন্য)
+Smooth,মসৃণ
+An icon file with .ico extension. Should be 16 x 16 px.\nYou can generate using favicon-generator.org,.ico এক্সটেনশনযুক্ত ১৬ × ১৬ পিক্সেলের আইকন ফাইল।\nfavicon-generator.org দিয়ে এটি তৈরি করতে পারেন।
+Server-side Python script that populates component data. Receives props as input. Use: data.events = frappe.get_list('Event'),কম্পোনেন্টের ডেটা পূরণ করার সার্ভার-সাইড Python স্ক্রিপ্ট। ইনপুট হিসেবে props নেয়। ব্যবহার: data.events = frappe.get_list('Event')

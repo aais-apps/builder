@@ -35,13 +35,18 @@ def get_context(context):
 		capture("active_site", "builder")
 
 
-def get_boot() -> dict:
+@frappe.whitelist()
+def get_translations() -> dict:
 	# only Builder's own catalog, the editor never looks up another app's strings
 	lang = frappe.local.lang
 	messages = get_translations_from_apps(lang, ["builder"])
 	messages.update(get_user_translations(lang) or {})
+	return messages
+
+
+def get_boot() -> dict:
 	return {
-		"translated_messages": messages,
+		"translated_messages": get_translations(),
 		# the trial card opens Cloud Settings with this context, so the SDK skips its own lookup
 		"cloud_settings": get_cloud_settings(),
 		# content blockers stop the Pulse client, so onboarding reads the server's verdict instead
